@@ -2273,11 +2273,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao02_SimpleCategories\\_Dao02_SimpleCategories.csproj",
+      "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao02_SimpleCategories\\_Dao02_SimpleCategories.csproj",
       "projectName": "_Dao02_SimpleCategories",
-      "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao02_SimpleCategories\\_Dao02_SimpleCategories.csproj",
+      "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao02_SimpleCategories\\_Dao02_SimpleCategories.csproj",
       "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-      "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao02_SimpleCategories\\obj\\",
+      "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao02_SimpleCategories\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2299,14 +2299,14 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "projectReferences": {
-            "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj"
             },
-            "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\DB\\DB.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\DB\\DB.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj"
             },
-            "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
             }
           }
         }

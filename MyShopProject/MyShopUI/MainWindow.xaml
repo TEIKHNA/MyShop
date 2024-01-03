@@ -15,7 +15,6 @@
         WindowStartupLocation="CenterScreen"
         WindowStyle="None"
         Loaded="window_Loaded">
-    
     <Window.Template>
         <ControlTemplate TargetType="Window">
             <Border Background="{TemplateBinding Background}" CornerRadius="45" MouseDown="border_MouseDown">
@@ -23,7 +22,7 @@
             </Border>
         </ControlTemplate>
     </Window.Template>
-    
+
     <Window.Background>
         <LinearGradientBrush StartPoint="0.4,0" EndPoint="0.5,1">
             <GradientStop Color="#1D195B" Offset="0"/>
@@ -47,74 +46,35 @@
                             <GradientStop Color="#D3B7FF" Offset="1" />
                         </LinearGradientBrush>
                     </Border.Background>
-
                     <TextBlock Text="BS" Foreground="#ffffff" FontSize="22" FontWeight="SemiBold" TextAlignment="Center" VerticalAlignment="Center" Margin="3 0 0 2"/>
                 </Border>
-
                 <StackPanel Margin="10 0 0 0" VerticalAlignment="Center">
                     <TextBlock Text="BOOK SHOP" FontSize="20" Margin="0 0 0 5" FontWeight="Bold" Foreground="White"/>
                 </StackPanel>
             </StackPanel>
-
             <Separator Height="0.8" Background="#46558a" Margin="20 30 20 30"/>
-
-            <!--<Button Style="{StaticResource menuButtonActive}" Name="active">
-                <StackPanel Orientation="Horizontal">
-                    <fa:IconImage Icon="Home" Style="{StaticResource menuButtonIcon}"/>
-                    <TextBlock Text="Dashboard" Style="{StaticResource menuButtonText}"/>
-                </StackPanel>
-            </Button>
-
-            <Button Style="{StaticResource menuButton}">
-                <StackPanel Orientation="Horizontal">
-                    <fa:IconImage Icon="FileSignature" Style="{StaticResource menuButtonIcon}"/>
-                    <TextBlock Text="Listing" Style="{StaticResource menuButtonText}"/>
-                </StackPanel>
-            </Button>
-
-            <Button Style="{StaticResource menuButton}">
-                <StackPanel Orientation="Horizontal">
-                    <fa:IconImage Icon="ShoppingCart" Style="{StaticResource menuButtonIcon}"/>
-                    <TextBlock Text="Orders" Style="{StaticResource menuButtonText}"/>
-                </StackPanel>
-            </Button>
-
-            <Button Style="{StaticResource menuButton}">
-                <StackPanel Orientation="Horizontal">
-                    <fa:IconImage Icon="ChartArea" Style="{StaticResource menuButtonIcon}"/>
-                    <TextBlock Text="Statistics" Style="{StaticResource menuButtonText}"/>
-                </StackPanel>
-            </Button>
-
-            <Button Style="{StaticResource menuButton}">
-                <StackPanel Orientation="Horizontal">
-                    <fa:IconImage Icon="Coins" Style="{StaticResource menuButtonIcon}"/>
-                    <TextBlock Text="Revenue" Style="{StaticResource menuButtonText}"/>
-                </StackPanel>
-            </Button>
-
-            <Button Style="{StaticResource menuButton}">
-                <StackPanel Orientation="Horizontal">
-                    <fa:IconImage Icon="FlagCheckered" Style="{StaticResource menuButtonIcon}"/>
-                    <TextBlock Text="Promote" Style="{StaticResource menuButtonText}"/>
-                </StackPanel>
-            </Button>
-
-            <Button Style="{StaticResource menuButton}">
-                <StackPanel Orientation="Horizontal">
-                    <fa:IconImage Icon="Cog" Style="{StaticResource menuButtonIcon}"/>
-                    <TextBlock Text="Settings" Style="{StaticResource menuButtonText}"/>
-                </StackPanel>
-            </Button>
-
-            <Button Style="{StaticResource menuButton}">
-                <StackPanel Orientation="Horizontal">
-                    <fa:IconImage Icon="PowerOff" Style="{StaticResource menuButtonIcon}"/>
-                    <TextBlock Text="Logout" Style="{StaticResource menuButtonText}"/>
-                </StackPanel>
-            </Button>-->
         </StackPanel>
 
         <ContentControl Grid.Column="1" x:Name="ContentArea"  Margin="10"/>
+        <Button Click="closeButton_Click"
+                Height="25"
+                Width="25"
+                Grid.Column="1"
+                BorderThickness="0"
+                Background="Transparent"
+                Style="{StaticResource MyCloseButtonStyle}"
+                VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0 25 35 0">
+            <fa:IconImage Icon="Xmark"  Width="15" Foreground="White" ></fa:IconImage>
+        </Button>
+        <Button Click="minimizeButton_Click"
+                Height="25"
+                Width="25"
+                Grid.Column="1"
+                BorderThickness="0"
+                Background="Transparent"
+                Style="{StaticResource MyMinimizeButtonStyle}"
+                VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0 25 72 0">
+            <fa:IconImage Icon="Minus"  Width="15" Foreground="White" ></fa:IconImage>
+        </Button>
     </Grid>
 </Window>

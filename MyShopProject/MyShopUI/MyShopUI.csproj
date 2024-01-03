@@ -17,6 +17,9 @@
 	  <ProjectReference Include="..\Contract02_Categories\Contract02_Categories.csproj" />
 	  <ProjectReference Include="..\Contract03_Products\Contract03_Products.csproj" />
 	  <ProjectReference Include="..\Contract04_Orders\Contract04_Orders.csproj" />
+	  <ProjectReference Include="..\Contract05_Report\Contract05_Report.csproj" />
+	  <ProjectReference Include="..\Contract06_Promotions\Contract06_Promotions.csproj" />
+	  <ProjectReference Include="..\Contract07_Customers\Contract07_Customers.csproj" />
 	  <ProjectReference Include="..\DB\DB.csproj" />
 	  <ProjectReference Include="..\Entity\Entity.csproj" />
 	  <ProjectReference Include="..\Utility\Utility.csproj" />
@@ -24,14 +27,23 @@
 	  <ProjectReference Include="..\_Bus02_SimpleCategories\_Bus02_SimpleCategories.csproj" />
 	  <ProjectReference Include="..\_Bus03_SimpleProducts\_Bus03_SimpleProducts.csproj" />
 	  <ProjectReference Include="..\_Bus04_SimpleOrders\_Bus04_SimpleOrders.csproj" />
+	  <ProjectReference Include="..\_Bus05_SimpleReport\_Bus05_SimpleReport.csproj" />
+	  <ProjectReference Include="..\_Bus06_SimplePromotions\_Bus06_SimplePromotions.csproj" />
+	  <ProjectReference Include="..\_Bus07_SimpleCustomers\_Bus07_SimpleCustomers.csproj" />
 	  <ProjectReference Include="..\_Dao01_SimpleDashboard\_Dao01_SimpleDashboard.csproj" />
 	  <ProjectReference Include="..\_Dao02_SimpleCategories\_Dao02_SimpleCategories.csproj" />
 	  <ProjectReference Include="..\_Dao03_SimpleProducts\_Dao03_SimpleProducts.csproj" />
 	  <ProjectReference Include="..\_Dao04_SimpleOrders\_Dao04_SimpleOrders.csproj" />
+	  <ProjectReference Include="..\_Dao05_SimpleReport\_Dao05_SimpleReport.csproj" />
+	  <ProjectReference Include="..\_Dao06_SimplePromotions\_Dao06_SimplePromotions.csproj" />
+	  <ProjectReference Include="..\_Dao07_SimpleCustomers\_Dao07_SimpleCustomers.csproj" />
 	  <ProjectReference Include="..\_Gui01_SimpleDashboard\_Gui01_SimpleDashboard.csproj" />
 	  <ProjectReference Include="..\_Gui02_SimpleCategories\_Gui02_SimpleCategories.csproj" />
 	  <ProjectReference Include="..\_Gui03_SimpleProducts\_Gui03_SimpleProducts.csproj" />
 	  <ProjectReference Include="..\_Gui04_SimpleOrders\_Gui04_SimpleOrders.csproj" />
+	  <ProjectReference Include="..\_Gui05_SimpleReport\_Gui05_SimpleReport.csproj" />
+	  <ProjectReference Include="..\_Gui06_SimplePromotions\_Gui06_SimplePromotions.csproj" />
+	  <ProjectReference Include="..\_Gui07_SimpleCustomers\_Gui07_SimpleCustomers.csproj" />
 	</ItemGroup>
 	
 	<ItemGroup>

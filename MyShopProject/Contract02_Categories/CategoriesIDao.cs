@@ -15,6 +15,5 @@ namespace Contract02_Categories
         public abstract int del(int id);
         public abstract int edit(int id, string newName, string newDesc);
         public abstract BindingList<Category> import(string config);
-
     }
 }

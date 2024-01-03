@@ -9,11 +9,11 @@ namespace Entity
 {
     public class Customer : INotifyPropertyChanged
     {
-        public int CusId { get; set; } 
+        public int CusId { get; set; }
         public string? Name { get; set; }
         public string? Address { get; set; }
-        public int? Tel { get; set; }
-        public string? Email {  get; set; }
+        public string? Tel { get; set; }
+        public string? Email { get; set; }
 
         public event PropertyChangedEventHandler? PropertyChanged;
     }

@@ -11,16 +11,17 @@ namespace Utility
         {
             string phone = (string)value;
             if (phone != null && phone.Length > 0)
-            { 
-                Regex regex = new Regex(@"[^\d]");
-                phone = regex.Replace(phone, "");
-                phone = Regex.Replace(phone, @"(\d{4})(\d{3})(\d{3})", "$1-$2-$3");
+            {
+                if (phone.Length == 10)
+                {
+                    Regex regex = new Regex(@"[^\d]");
+                    phone = regex.Replace(phone, "");
+                    phone = Regex.Replace(phone, @"(\d{4})(\d{3})(\d{3})", "$1-$2-$3");
+                    return phone;
+                }
                 return phone;
             }
-            else
-            {
-                return "";
-            }
+            return "";
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)

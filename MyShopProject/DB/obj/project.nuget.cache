@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bzY0TADIq8e0rMZCW/rWpPEcjQOtGobKdzLXQ/qcYdiHi4fVjuhLgXy0h7z6qCUhQcZRowk4gNqobyVbxc7Gpw==",
+  "dgSpecHash": "6wZHSOP79EXtVbEISdnjFsr96oiw1nAsrcDO6JFUQwK9VW44oLl9Lnm8810AG9rmXp/6aOVl334wAh6L+NTdNg==",
   "success": true,
-  "projectFilePath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\DB\\DB.csproj",
+  "projectFilePath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MYLAP.VN\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\MYLAP.VN\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

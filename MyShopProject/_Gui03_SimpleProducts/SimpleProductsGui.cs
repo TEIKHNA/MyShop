@@ -11,10 +11,7 @@ namespace _Gui03_SimpleProducts
             _bus = bus;
         }
 
-        public SimpleProductsGui()
-        {
-
-        }
+        public SimpleProductsGui() { }
 
         public override UserControl getMainWindow()
         {

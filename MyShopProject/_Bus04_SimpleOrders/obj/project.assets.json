@@ -2132,11 +2132,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus04_SimpleOrders\\_Bus04_SimpleOrders.csproj",
+      "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus04_SimpleOrders\\_Bus04_SimpleOrders.csproj",
       "projectName": "_Bus04_SimpleOrders",
-      "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus04_SimpleOrders\\_Bus04_SimpleOrders.csproj",
+      "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus04_SimpleOrders\\_Bus04_SimpleOrders.csproj",
       "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-      "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus04_SimpleOrders\\obj\\",
+      "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus04_SimpleOrders\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2158,11 +2158,11 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "projectReferences": {
-            "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj"
             },
-            "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
             }
           }
         }

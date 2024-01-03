@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4t/nNL+WXcmUqrd/hcg6eqa6LXpexSHkk/IWqvo6XFRjz+uYPRKN0NlHs+f8IjCe2NWKElmEOwYEIYwHuoDqQQ==",
+  "dgSpecHash": "lo39Ru9n5r4WED88C4xXqWG6qwbgP7f6K5DTOIQcOGEISxz1D9686uadNJQgzbNUZ7WXmd+MtLL3HyGbwLqquQ==",
   "success": true,
-  "projectFilePath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract05_Report\\Contract05_Report.csproj",
+  "projectFilePath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract05_Report\\Contract05_Report.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MYLAP.VN\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\MYLAP.VN\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

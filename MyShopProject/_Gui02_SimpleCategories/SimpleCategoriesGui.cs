@@ -9,7 +9,8 @@ namespace _Gui02_SimpleCategories
         {
             _bus = bus;
         }
-          public SimpleCategoriesGui()
+        
+        public SimpleCategoriesGui()
         {
 
         }

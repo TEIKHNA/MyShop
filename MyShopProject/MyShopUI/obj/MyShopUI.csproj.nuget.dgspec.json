@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\MyShopUI\\MyShopUI.csproj": {}
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\MyShopUI\\MyShopUI.csproj": {}
   },
   "projects": {
-    "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj": {
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj",
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj",
         "projectName": "Contract01_Dashboard",
-        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj",
         "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract01_Dashboard\\obj\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract01_Dashboard\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
               }
             }
           }
@@ -88,14 +88,14 @@
         }
       }
     },
-    "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj": {
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj",
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj",
         "projectName": "Contract02_Categories",
-        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj",
         "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract02_Categories\\obj\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract02_Categories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -117,8 +117,8 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
               }
             }
           }
@@ -172,14 +172,14 @@
         }
       }
     },
-    "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj": {
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj",
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj",
         "projectName": "Contract03_Products",
-        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj",
         "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract03_Products\\obj\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract03_Products\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -201,8 +201,8 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
               }
             }
           }
@@ -256,14 +256,14 @@
         }
       }
     },
-    "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj": {
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj",
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj",
         "projectName": "Contract04_Orders",
-        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj",
         "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract04_Orders\\obj\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract04_Orders\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -285,8 +285,8 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
               }
             }
           }
@@ -340,194 +340,14 @@
         }
       }
     },
-    "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\DB\\DB.csproj": {
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract05_Report\\Contract05_Report.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\DB\\DB.csproj",
-        "projectName": "DB",
-        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\DB\\DB.csproj",
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract05_Report\\Contract05_Report.csproj",
+        "projectName": "Contract05_Report",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract05_Report\\Contract05_Report.csproj",
         "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\DB\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\MYLAP.VN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0-windows"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0-windows7.0": {
-            "targetAlias": "net7.0-windows",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
-        }
-      },
-      "frameworks": {
-        "net7.0-windows7.0": {
-          "targetAlias": "net7.0-windows",
-          "dependencies": {
-            "Microsoft.Data.SqlClient": {
-              "target": "Package",
-              "version": "[5.1.2, )"
-            },
-            "PropertyChanged.Fody": {
-              "target": "Package",
-              "version": "[4.1.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WPF": {
-              "privateAssets": "none"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj",
-        "projectName": "Entity",
-        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj",
-        "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\MYLAP.VN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0-windows"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0-windows7.0": {
-            "targetAlias": "net7.0-windows",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
-        }
-      },
-      "frameworks": {
-        "net7.0-windows7.0": {
-          "targetAlias": "net7.0-windows",
-          "dependencies": {
-            "Microsoft.Data.SqlClient": {
-              "target": "Package",
-              "version": "[5.1.2, )"
-            },
-            "PropertyChanged.Fody": {
-              "target": "Package",
-              "version": "[4.1.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WPF": {
-              "privateAssets": "none"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\MyShopUI\\MyShopUI.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\MyShopUI\\MyShopUI.csproj",
-        "projectName": "MyShopUI",
-        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\MyShopUI\\MyShopUI.csproj",
-        "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\MyShopUI\\obj\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract05_Report\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -549,62 +369,530 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract06_Promotions\\Contract06_Promotions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract06_Promotions\\Contract06_Promotions.csproj",
+        "projectName": "Contract06_Promotions",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract06_Promotions\\Contract06_Promotions.csproj",
+        "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract06_Promotions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MYLAP.VN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract07_Customers\\Contract07_Customers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract07_Customers\\Contract07_Customers.csproj",
+        "projectName": "Contract07_Customers",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract07_Customers\\Contract07_Customers.csproj",
+        "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract07_Customers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MYLAP.VN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj",
+        "projectName": "DB",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj",
+        "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MYLAP.VN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.2, )"
+            },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj",
+        "projectName": "Entity",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj",
+        "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MYLAP.VN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.2, )"
+            },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\MyShopUI\\MyShopUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\MyShopUI\\MyShopUI.csproj",
+        "projectName": "MyShopUI",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\MyShopUI\\MyShopUI.csproj",
+        "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\MyShopUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MYLAP.VN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\DB\\DB.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\DB\\DB.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract05_Report\\Contract05_Report.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract05_Report\\Contract05_Report.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract06_Promotions\\Contract06_Promotions.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract06_Promotions\\Contract06_Promotions.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Utility\\Utility.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Utility\\Utility.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract07_Customers\\Contract07_Customers.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract07_Customers\\Contract07_Customers.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus02_SimpleCategories\\_Bus02_SimpleCategories.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus02_SimpleCategories\\_Bus02_SimpleCategories.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus03_SimpleProducts\\_Bus03_SimpleProducts.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus03_SimpleProducts\\_Bus03_SimpleProducts.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Utility\\Utility.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Utility\\Utility.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus04_SimpleOrders\\_Bus04_SimpleOrders.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus04_SimpleOrders\\_Bus04_SimpleOrders.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao01_SimpleDashboard\\_Dao01_SimpleDashboard.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao01_SimpleDashboard\\_Dao01_SimpleDashboard.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus02_SimpleCategories\\_Bus02_SimpleCategories.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus02_SimpleCategories\\_Bus02_SimpleCategories.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao02_SimpleCategories\\_Dao02_SimpleCategories.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao02_SimpleCategories\\_Dao02_SimpleCategories.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus03_SimpleProducts\\_Bus03_SimpleProducts.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus03_SimpleProducts\\_Bus03_SimpleProducts.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao03_SimpleProducts\\_Dao03_SimpleProducts.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao03_SimpleProducts\\_Dao03_SimpleProducts.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus04_SimpleOrders\\_Bus04_SimpleOrders.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus04_SimpleOrders\\_Bus04_SimpleOrders.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao04_SimpleOrders\\_Dao04_SimpleOrders.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao04_SimpleOrders\\_Dao04_SimpleOrders.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus05_SimpleReport\\_Bus05_SimpleReport.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus05_SimpleReport\\_Bus05_SimpleReport.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui01_SimpleDashboard\\_Gui01_SimpleDashboard.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui01_SimpleDashboard\\_Gui01_SimpleDashboard.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus06_SimplePromotions\\_Bus06_SimplePromotions.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus06_SimplePromotions\\_Bus06_SimplePromotions.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui02_SimpleCategories\\_Gui02_SimpleCategories.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui02_SimpleCategories\\_Gui02_SimpleCategories.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus07_SimpleCustomers\\_Bus07_SimpleCustomers.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus07_SimpleCustomers\\_Bus07_SimpleCustomers.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui03_SimpleProducts\\_Gui03_SimpleProducts.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui03_SimpleProducts\\_Gui03_SimpleProducts.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao01_SimpleDashboard\\_Dao01_SimpleDashboard.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao01_SimpleDashboard\\_Dao01_SimpleDashboard.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui04_SimpleOrders\\_Gui04_SimpleOrders.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui04_SimpleOrders\\_Gui04_SimpleOrders.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao02_SimpleCategories\\_Dao02_SimpleCategories.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao02_SimpleCategories\\_Dao02_SimpleCategories.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao03_SimpleProducts\\_Dao03_SimpleProducts.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao03_SimpleProducts\\_Dao03_SimpleProducts.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao04_SimpleOrders\\_Dao04_SimpleOrders.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao04_SimpleOrders\\_Dao04_SimpleOrders.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao05_SimpleReport\\_Dao05_SimpleReport.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao05_SimpleReport\\_Dao05_SimpleReport.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao06_SimplePromotions\\_Dao06_SimplePromotions.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao06_SimplePromotions\\_Dao06_SimplePromotions.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao07_SimpleCustomers\\_Dao07_SimpleCustomers.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao07_SimpleCustomers\\_Dao07_SimpleCustomers.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui01_SimpleDashboard\\_Gui01_SimpleDashboard.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui01_SimpleDashboard\\_Gui01_SimpleDashboard.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui02_SimpleCategories\\_Gui02_SimpleCategories.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui02_SimpleCategories\\_Gui02_SimpleCategories.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui03_SimpleProducts\\_Gui03_SimpleProducts.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui03_SimpleProducts\\_Gui03_SimpleProducts.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui04_SimpleOrders\\_Gui04_SimpleOrders.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui04_SimpleOrders\\_Gui04_SimpleOrders.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui05_SimpleReport\\_Gui05_SimpleReport.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui05_SimpleReport\\_Gui05_SimpleReport.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui06_SimplePromotions\\_Gui06_SimplePromotions.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui06_SimplePromotions\\_Gui06_SimplePromotions.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui07_SimpleCustomers\\_Gui07_SimpleCustomers.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui07_SimpleCustomers\\_Gui07_SimpleCustomers.csproj"
               }
             }
           }
@@ -668,14 +956,14 @@
         }
       }
     },
-    "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Utility\\Utility.csproj": {
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Utility\\Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Utility\\Utility.csproj",
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Utility\\Utility.csproj",
         "projectName": "Utility",
-        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Utility\\Utility.csproj",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Utility\\Utility.csproj",
         "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Utility\\obj\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -748,14 +1036,14 @@
         }
       }
     },
-    "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj": {
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj",
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj",
         "projectName": "_Bus01_SimpleDashboard",
-        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj",
         "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus01_SimpleDashboard\\obj\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus01_SimpleDashboard\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -777,11 +1065,11 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
               }
             }
           }
@@ -835,14 +1123,14 @@
         }
       }
     },
-    "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus02_SimpleCategories\\_Bus02_SimpleCategories.csproj": {
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus02_SimpleCategories\\_Bus02_SimpleCategories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus02_SimpleCategories\\_Bus02_SimpleCategories.csproj",
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus02_SimpleCategories\\_Bus02_SimpleCategories.csproj",
         "projectName": "_Bus02_SimpleCategories",
-        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus02_SimpleCategories\\_Bus02_SimpleCategories.csproj",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus02_SimpleCategories\\_Bus02_SimpleCategories.csproj",
         "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus02_SimpleCategories\\obj\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus02_SimpleCategories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -864,11 +1152,11 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
               }
             }
           }
@@ -922,14 +1210,14 @@
         }
       }
     },
-    "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus03_SimpleProducts\\_Bus03_SimpleProducts.csproj": {
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus03_SimpleProducts\\_Bus03_SimpleProducts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus03_SimpleProducts\\_Bus03_SimpleProducts.csproj",
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus03_SimpleProducts\\_Bus03_SimpleProducts.csproj",
         "projectName": "_Bus03_SimpleProducts",
-        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus03_SimpleProducts\\_Bus03_SimpleProducts.csproj",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus03_SimpleProducts\\_Bus03_SimpleProducts.csproj",
         "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus03_SimpleProducts\\obj\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus03_SimpleProducts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -951,11 +1239,11 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
               }
             }
           }
@@ -1009,14 +1297,14 @@
         }
       }
     },
-    "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus04_SimpleOrders\\_Bus04_SimpleOrders.csproj": {
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus04_SimpleOrders\\_Bus04_SimpleOrders.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus04_SimpleOrders\\_Bus04_SimpleOrders.csproj",
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus04_SimpleOrders\\_Bus04_SimpleOrders.csproj",
         "projectName": "_Bus04_SimpleOrders",
-        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus04_SimpleOrders\\_Bus04_SimpleOrders.csproj",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus04_SimpleOrders\\_Bus04_SimpleOrders.csproj",
         "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus04_SimpleOrders\\obj\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus04_SimpleOrders\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1038,11 +1326,11 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
               }
             }
           }
@@ -1096,14 +1384,275 @@
         }
       }
     },
-    "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao01_SimpleDashboard\\_Dao01_SimpleDashboard.csproj": {
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus05_SimpleReport\\_Bus05_SimpleReport.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao01_SimpleDashboard\\_Dao01_SimpleDashboard.csproj",
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus05_SimpleReport\\_Bus05_SimpleReport.csproj",
+        "projectName": "_Bus05_SimpleReport",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus05_SimpleReport\\_Bus05_SimpleReport.csproj",
+        "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus05_SimpleReport\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MYLAP.VN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract05_Report\\Contract05_Report.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract05_Report\\Contract05_Report.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus06_SimplePromotions\\_Bus06_SimplePromotions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus06_SimplePromotions\\_Bus06_SimplePromotions.csproj",
+        "projectName": "_Bus06_SimplePromotions",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus06_SimplePromotions\\_Bus06_SimplePromotions.csproj",
+        "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus06_SimplePromotions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MYLAP.VN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract06_Promotions\\Contract06_Promotions.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract06_Promotions\\Contract06_Promotions.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus07_SimpleCustomers\\_Bus07_SimpleCustomers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus07_SimpleCustomers\\_Bus07_SimpleCustomers.csproj",
+        "projectName": "_Bus07_SimpleCustomers",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus07_SimpleCustomers\\_Bus07_SimpleCustomers.csproj",
+        "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus07_SimpleCustomers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MYLAP.VN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui07_SimpleCustomers\\_Gui07_SimpleCustomers.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui07_SimpleCustomers\\_Gui07_SimpleCustomers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao01_SimpleDashboard\\_Dao01_SimpleDashboard.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao01_SimpleDashboard\\_Dao01_SimpleDashboard.csproj",
         "projectName": "_Dao01_SimpleDashboard",
-        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao01_SimpleDashboard\\_Dao01_SimpleDashboard.csproj",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao01_SimpleDashboard\\_Dao01_SimpleDashboard.csproj",
         "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao01_SimpleDashboard\\obj\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao01_SimpleDashboard\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1125,14 +1674,14 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\DB\\DB.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\DB\\DB.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
               }
             }
           }
@@ -1186,14 +1735,14 @@
         }
       }
     },
-    "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao02_SimpleCategories\\_Dao02_SimpleCategories.csproj": {
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao02_SimpleCategories\\_Dao02_SimpleCategories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao02_SimpleCategories\\_Dao02_SimpleCategories.csproj",
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao02_SimpleCategories\\_Dao02_SimpleCategories.csproj",
         "projectName": "_Dao02_SimpleCategories",
-        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao02_SimpleCategories\\_Dao02_SimpleCategories.csproj",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao02_SimpleCategories\\_Dao02_SimpleCategories.csproj",
         "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao02_SimpleCategories\\obj\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao02_SimpleCategories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1215,14 +1764,14 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\DB\\DB.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\DB\\DB.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
               }
             }
           }
@@ -1282,14 +1831,14 @@
         }
       }
     },
-    "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao03_SimpleProducts\\_Dao03_SimpleProducts.csproj": {
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao03_SimpleProducts\\_Dao03_SimpleProducts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao03_SimpleProducts\\_Dao03_SimpleProducts.csproj",
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao03_SimpleProducts\\_Dao03_SimpleProducts.csproj",
         "projectName": "_Dao03_SimpleProducts",
-        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao03_SimpleProducts\\_Dao03_SimpleProducts.csproj",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao03_SimpleProducts\\_Dao03_SimpleProducts.csproj",
         "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao03_SimpleProducts\\obj\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao03_SimpleProducts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1311,14 +1860,14 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\DB\\DB.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\DB\\DB.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
               }
             }
           }
@@ -1378,14 +1927,14 @@
         }
       }
     },
-    "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao04_SimpleOrders\\_Dao04_SimpleOrders.csproj": {
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao04_SimpleOrders\\_Dao04_SimpleOrders.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao04_SimpleOrders\\_Dao04_SimpleOrders.csproj",
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao04_SimpleOrders\\_Dao04_SimpleOrders.csproj",
         "projectName": "_Dao04_SimpleOrders",
-        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao04_SimpleOrders\\_Dao04_SimpleOrders.csproj",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao04_SimpleOrders\\_Dao04_SimpleOrders.csproj",
         "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao04_SimpleOrders\\obj\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao04_SimpleOrders\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1407,14 +1956,14 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\DB\\DB.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\DB\\DB.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
               }
             }
           }
@@ -1468,14 +2017,284 @@
         }
       }
     },
-    "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui01_SimpleDashboard\\_Gui01_SimpleDashboard.csproj": {
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao05_SimpleReport\\_Dao05_SimpleReport.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui01_SimpleDashboard\\_Gui01_SimpleDashboard.csproj",
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao05_SimpleReport\\_Dao05_SimpleReport.csproj",
+        "projectName": "_Dao05_SimpleReport",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao05_SimpleReport\\_Dao05_SimpleReport.csproj",
+        "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao05_SimpleReport\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MYLAP.VN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract05_Report\\Contract05_Report.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract05_Report\\Contract05_Report.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao06_SimplePromotions\\_Dao06_SimplePromotions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao06_SimplePromotions\\_Dao06_SimplePromotions.csproj",
+        "projectName": "_Dao06_SimplePromotions",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao06_SimplePromotions\\_Dao06_SimplePromotions.csproj",
+        "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao06_SimplePromotions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MYLAP.VN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract06_Promotions\\Contract06_Promotions.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract06_Promotions\\Contract06_Promotions.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao07_SimpleCustomers\\_Dao07_SimpleCustomers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao07_SimpleCustomers\\_Dao07_SimpleCustomers.csproj",
+        "projectName": "_Dao07_SimpleCustomers",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao07_SimpleCustomers\\_Dao07_SimpleCustomers.csproj",
+        "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao07_SimpleCustomers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MYLAP.VN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract07_Customers\\Contract07_Customers.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract07_Customers\\Contract07_Customers.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui01_SimpleDashboard\\_Gui01_SimpleDashboard.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui01_SimpleDashboard\\_Gui01_SimpleDashboard.csproj",
         "projectName": "_Gui01_SimpleDashboard",
-        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui01_SimpleDashboard\\_Gui01_SimpleDashboard.csproj",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui01_SimpleDashboard\\_Gui01_SimpleDashboard.csproj",
         "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui01_SimpleDashboard\\obj\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui01_SimpleDashboard\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1497,14 +2316,14 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Utility\\Utility.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Utility\\Utility.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Utility\\Utility.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Utility\\Utility.csproj"
               }
             }
           }
@@ -1564,14 +2383,14 @@
         }
       }
     },
-    "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui02_SimpleCategories\\_Gui02_SimpleCategories.csproj": {
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui02_SimpleCategories\\_Gui02_SimpleCategories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui02_SimpleCategories\\_Gui02_SimpleCategories.csproj",
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui02_SimpleCategories\\_Gui02_SimpleCategories.csproj",
         "projectName": "_Gui02_SimpleCategories",
-        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui02_SimpleCategories\\_Gui02_SimpleCategories.csproj",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui02_SimpleCategories\\_Gui02_SimpleCategories.csproj",
         "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui02_SimpleCategories\\obj\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui02_SimpleCategories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1593,17 +2412,17 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\DB\\DB.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\DB\\DB.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Utility\\Utility.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Utility\\Utility.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Utility\\Utility.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Utility\\Utility.csproj"
               }
             }
           }
@@ -1663,14 +2482,14 @@
         }
       }
     },
-    "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui03_SimpleProducts\\_Gui03_SimpleProducts.csproj": {
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui03_SimpleProducts\\_Gui03_SimpleProducts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui03_SimpleProducts\\_Gui03_SimpleProducts.csproj",
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui03_SimpleProducts\\_Gui03_SimpleProducts.csproj",
         "projectName": "_Gui03_SimpleProducts",
-        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui03_SimpleProducts\\_Gui03_SimpleProducts.csproj",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui03_SimpleProducts\\_Gui03_SimpleProducts.csproj",
         "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui03_SimpleProducts\\obj\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui03_SimpleProducts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1692,17 +2511,17 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\DB\\DB.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\DB\\DB.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Utility\\Utility.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Utility\\Utility.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Utility\\Utility.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Utility\\Utility.csproj"
               }
             }
           }
@@ -1762,14 +2581,14 @@
         }
       }
     },
-    "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui04_SimpleOrders\\_Gui04_SimpleOrders.csproj": {
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui04_SimpleOrders\\_Gui04_SimpleOrders.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui04_SimpleOrders\\_Gui04_SimpleOrders.csproj",
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui04_SimpleOrders\\_Gui04_SimpleOrders.csproj",
         "projectName": "_Gui04_SimpleOrders",
-        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui04_SimpleOrders\\_Gui04_SimpleOrders.csproj",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui04_SimpleOrders\\_Gui04_SimpleOrders.csproj",
         "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui04_SimpleOrders\\obj\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui04_SimpleOrders\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1791,17 +2610,318 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\DB\\DB.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\DB\\DB.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Utility\\Utility.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Utility\\Utility.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Utility\\Utility.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Utility\\Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "FontAwesome.Sharp": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui05_SimpleReport\\_Gui05_SimpleReport.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui05_SimpleReport\\_Gui05_SimpleReport.csproj",
+        "projectName": "_Gui05_SimpleReport",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui05_SimpleReport\\_Gui05_SimpleReport.csproj",
+        "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui05_SimpleReport\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MYLAP.VN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract05_Report\\Contract05_Report.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract05_Report\\Contract05_Report.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Utility\\Utility.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Utility\\Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "FontAwesome.Sharp": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "LiveCharts.Wpf.NetCore3": {
+              "target": "Package",
+              "version": "[0.9.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui06_SimplePromotions\\_Gui06_SimplePromotions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui06_SimplePromotions\\_Gui06_SimplePromotions.csproj",
+        "projectName": "_Gui06_SimplePromotions",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui06_SimplePromotions\\_Gui06_SimplePromotions.csproj",
+        "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui06_SimplePromotions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MYLAP.VN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract06_Promotions\\Contract06_Promotions.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract06_Promotions\\Contract06_Promotions.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Utility\\Utility.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Utility\\Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "FontAwesome.Sharp": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui07_SimpleCustomers\\_Gui07_SimpleCustomers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui07_SimpleCustomers\\_Gui07_SimpleCustomers.csproj",
+        "projectName": "_Gui07_SimpleCustomers",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui07_SimpleCustomers\\_Gui07_SimpleCustomers.csproj",
+        "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui07_SimpleCustomers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MYLAP.VN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract07_Customers\\Contract07_Customers.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract07_Customers\\Contract07_Customers.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
+              },
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Utility\\Utility.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Utility\\Utility.csproj"
               }
             }
           }

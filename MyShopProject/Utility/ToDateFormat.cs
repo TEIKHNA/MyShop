@@ -15,6 +15,7 @@ namespace Utility
             string formatDate = ((DateTime)value).ToString("dd/MM/yyyy", CultureInfo.InvariantCulture);
             return formatDate;
         }
+       
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
         {
             throw new NotImplementedException();

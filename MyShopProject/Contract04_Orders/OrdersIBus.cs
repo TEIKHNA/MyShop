@@ -17,9 +17,7 @@ namespace Contract04_Orders
         public abstract Order getOneOrder(int id);
         public abstract int delOneOrder(int id);
         public abstract int addOneOrder(Order order);
-
         public abstract BindingList<Customer> getCustomers();
-
         public abstract BindingList<OrderDetail> getOrderDetails(int ordId);
         public abstract OrderDetail getOneOrderDetail(int id);
         public abstract int delOneOrderDetail(int? id);
@@ -27,9 +25,7 @@ namespace Contract04_Orders
         public abstract int addOneOrderDetail(OrderDetail detail);
         public abstract int getProductLimit(int? proId);
         public abstract int updateOrderPrice(int ordId);
-
         public abstract int setCustomerToOrder(int? cusId, int ordId);
-
         public abstract int minusProductQuantity(int? proId);
     }
 }

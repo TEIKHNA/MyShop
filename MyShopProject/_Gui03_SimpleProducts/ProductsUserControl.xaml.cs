@@ -22,23 +22,12 @@ namespace _Gui03_SimpleProducts
     public partial class ProductsUserControl : UserControl
     {
         ProductsIBus _bus;
-        public ProductsUserControl(ProductsIBus bus)
-        {
-            _bus = bus;
-            InitializeComponent();
-        }
-
         BindingList<Product> _products = new BindingList<Product>();
-
         BindingList<Category> _categories = new BindingList<Category>();
-
         BindingList<Promotion> _promotions = new BindingList<Promotion>();
-
         Product? _bookInfo = null;
 
-
         bool _filterShow = false;
-
         int _startPrice = 0;
         int _endPrice = int.MaxValue;
         string _sortField = "Title";
@@ -50,54 +39,37 @@ namespace _Gui03_SimpleProducts
         int _totalItems = -1;
         int _currentPage = 1;
 
-        private void hideProductsList()
+        public ProductsUserControl(ProductsIBus bus)
         {
-            productsDockPanel.Visibility = Visibility.Collapsed;
-            itemsAmount.Visibility = Visibility.Collapsed;
-            preButton.Visibility = Visibility.Collapsed;
-            nextButton.Visibility = Visibility.Collapsed;
-            pagingComboBox.Visibility = Visibility.Collapsed;
-            importButton.Visibility = Visibility.Collapsed;
-
-            backButton.Visibility = Visibility.Visible;
-            bookInfoImage.Visibility = Visibility.Visible;
-            bookInfoButtonBorder.Visibility = Visibility.Visible;
-            bookInfoBorder.Visibility = Visibility.Visible;
-
+            _bus = bus;
+            InitializeComponent();
         }
 
         private void showProductsList()
         {
-            productsDockPanel.Visibility = Visibility.Visible;
-            itemsAmount.Visibility = Visibility.Visible;
-            preButton.Visibility = Visibility.Visible;
-            nextButton.Visibility = Visibility.Visible;
-            pagingComboBox.Visibility = Visibility.Visible;
-            importButton.Visibility = Visibility.Visible;
+            productsList.Visibility = Visibility.Visible;
+            productInfo.Visibility = Visibility.Collapsed;
+        }
 
-            backButton.Visibility = Visibility.Collapsed;
-            bookInfoImage.Visibility = Visibility.Collapsed;
-            bookInfoButtonBorder.Visibility = Visibility.Collapsed;
-            bookInfoBorder.Visibility = Visibility.Collapsed;
+        private void showProductInfo()
+        {
+            productsList.Visibility = Visibility.Collapsed;
+            productInfo.Visibility = Visibility.Visible;
         }
 
         private void window_Loaded(object sender, RoutedEventArgs e)
         {
             showProductsList();
-
             _categories = _bus.getCategories();
             categoryComboBox.ItemsSource = _categories;
             categoryComboBox.SelectedIndex = 0;
-
             _promotions = _bus.getPromotions();
-
             var sortInfo = new List<string>();
             sortInfo.Add("Title");
             sortInfo.Add("Author");
             sortInfo.Add("SellingPrice");
             sortComboBox.ItemsSource = sortInfo;
             sortComboBox.SelectedIndex = 0;
-
             loadProducts();
         }
 
@@ -105,16 +77,12 @@ namespace _Gui03_SimpleProducts
         {
             int count = -1;
             (count, _products) = _bus.getProducts(_keyword, (_currentPage - 1) * _rowsPerPage, _rowsPerPage, _sortField, _startPrice, _endPrice, _catId);
-
             ProductsListView.ItemsSource = _products;
-
             if (count != _totalItems)
             {
                 _totalItems = count;
                 _totalPages = (_totalItems / _rowsPerPage) + (((_totalItems % _rowsPerPage) == 0) ? 0 : 1);
-
                 var pageInfo = new List<object>();
-
                 for (int i = 1; i <= _totalPages; i++)
                 {
                     pageInfo.Add(new
@@ -123,15 +91,13 @@ namespace _Gui03_SimpleProducts
                         Total = _totalPages
                     });
                 };
-
                 pagingComboBox.ItemsSource = pageInfo;
                 pagingComboBox.SelectedIndex = 0;
             }
-
             if (_totalItems == -1) _totalItems = 0;
             itemsAmount.Text = $"Show {_products.Count} of total {_totalItems} items";
         }
-        
+
         private void searchButton_Click(object sender, RoutedEventArgs e)
         {
             _keyword = keywordTextBox.Text;
@@ -140,14 +106,7 @@ namespace _Gui03_SimpleProducts
 
         private void filterButton_Click(object sender, RoutedEventArgs e)
         {
-            if (_filterShow == false)
-            {
-                filterPanel.Visibility = Visibility.Visible;
-            }
-            else
-            {
-                filterPanel.Visibility = Visibility.Collapsed;
-            }
+            filterPanel.Visibility = (_filterShow == false) ? Visibility.Visible : Visibility.Collapsed;
             _filterShow = !_filterShow;
         }
 
@@ -157,11 +116,7 @@ namespace _Gui03_SimpleProducts
             string end = endPrice.Text;
             _catId = ((Category)categoryComboBox.SelectedItem).CatId;
             _sortField = (string)sortComboBox.SelectedItem;
-
-            if (start == "")
-            {
-                _startPrice = 0;
-            }
+            if (start == "") _startPrice = 0;
             else
             {
                 if (int.TryParse(start, out int n) && Int32.Parse(start) >= 0)
@@ -169,10 +124,7 @@ namespace _Gui03_SimpleProducts
                     _startPrice = Int32.Parse(start);
                 }
             }
-            if (end == "")
-            {
-                _endPrice = int.MaxValue;
-            }
+            if (end == "") _endPrice = int.MaxValue;
             else
             {
                 if (int.TryParse(end, out int n) && Int32.Parse(end) >= 0)
@@ -180,7 +132,6 @@ namespace _Gui03_SimpleProducts
                     _endPrice = Int32.Parse(end);
                 }
             }
-
             loadProducts();
         }
 
@@ -233,22 +184,19 @@ namespace _Gui03_SimpleProducts
             if (ProductsListView.SelectedItem != null)
             {
                 _bookInfo = (Product)ProductsListView.SelectedItem;
-                hideProductsList();
-
+                showProductInfo();
                 string? catName = _bus.getCategoryName(_bookInfo.CatId, _categories);
                 if (catName == null)
                 {
                     catName = "None";
                 }
                 _bookInfo.CatName = catName;
-
                 int? discount = _bus.getDiscount(_bookInfo.PromId, _promotions);
                 if (discount == null)
                 {
                     discount = 0;
                 }
                 _bookInfo.Discount = discount;
-
                 DataContext = _bookInfo;
             }
         }
@@ -256,13 +204,12 @@ namespace _Gui03_SimpleProducts
         private void addButton_Click(object sender, RoutedEventArgs e)
         {
             Product? prod = null;
-            var screen = new ProductWindow(_bus, prod);
-
+            var screen = new ProductWindow(_bus, prod!);
             if (screen.ShowDialog()!.Value == true)
             {
                 prod = screen._prod;
-                var id = _bus.add(prod);
-                if (prod.CatId < 1)
+                var id = _bus.add(prod!);
+                if (prod!.CatId < 1)
                 {
                     prod.CatId = null;
                 }
@@ -285,9 +232,9 @@ namespace _Gui03_SimpleProducts
 
         private void delButton_Click(object sender, RoutedEventArgs e)
         {
-            if(_bookInfo != null)
+            if (_bookInfo != null)
             {
-                if(_bus.del(_bookInfo.ProId) > 0)
+                if (_bus.del(_bookInfo.ProId) > 0)
                 {
                     loadProducts();
                     showProductsList();
@@ -298,14 +245,14 @@ namespace _Gui03_SimpleProducts
 
         private void editButton_Click(object sender, RoutedEventArgs e)
         {
-            var screen = new ProductWindow(_bus, _bookInfo);
+            var screen = new ProductWindow(_bus, _bookInfo!);
 
             if (screen.ShowDialog()!.Value == true)
             {
                 var prod = screen._prod;
-                if (_bus.edit(prod) > 0)
+                if (_bus.edit(prod!) > 0)
                 {
-                    ReflectionExtension.CopyProperties(prod, _bookInfo);
+                    ReflectionExtension.CopyProperties(prod!, _bookInfo!);
                 }
             }
         }

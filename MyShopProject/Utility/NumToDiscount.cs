@@ -14,7 +14,6 @@ namespace Utility
         {
             int percentage = (int)value;
             string rs = "-" + percentage.ToString() + "%";
-
             return rs;
         }
 

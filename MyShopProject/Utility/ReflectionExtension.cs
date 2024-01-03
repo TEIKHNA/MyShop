@@ -12,13 +12,11 @@ namespace Utility
         {
             Type sourceType = source.GetType();
             Type targetType = target.GetType();
-
             var sourceProps = source.GetType().GetProperties();
 
             foreach (var sourceProp in sourceProps)
             {
                 if (!sourceProp.CanRead) continue;
-
                 var targetProp = targetType.GetProperty(sourceProp.Name);
                 if (targetProp == null) continue;
                 if (!targetProp.CanWrite) continue;
@@ -27,7 +25,6 @@ namespace Utility
                 if ((targetProp.GetSetMethod()!.Attributes
                     & System.Reflection.MethodAttributes.Static) != 0) continue;
                 if (!targetProp.PropertyType.IsAssignableFrom(sourceProp.PropertyType)) continue;
-
                 targetProp.SetValue(target, sourceProp.GetValue(source, null), null);
             }
         }

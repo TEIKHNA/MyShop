@@ -35,7 +35,6 @@ namespace DB
                 {
                     _instance = new DBInstance();
                 }
-
                 return _instance;
             }
         }
@@ -43,7 +42,8 @@ namespace DB
         public async void connect()
         {
             if (_connection != null) return;
-            _connection = await Task.Run(() => {
+            _connection = await Task.Run(() =>
+            {
                 _connection = new SqlConnection(ConnectionString);
                 try
                 {

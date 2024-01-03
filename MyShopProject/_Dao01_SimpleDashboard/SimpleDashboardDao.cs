@@ -18,7 +18,7 @@ namespace _Dao01_SimpleDashboard
             string sql = @"SELECT SUM(Quantity) From Products;";
             var command = new SqlCommand(sql, DBInstance.Instance.Connection);
             int rs = (int)(command.ExecuteScalar());
-            return rs; 
+            return rs;
         }
 
         public override int countTotalCurrentWeekOrders()
@@ -51,7 +51,6 @@ namespace _Dao01_SimpleDashboard
             {
                 while (reader.Read())
                 {
-
                     var prod = new Product()
                     {
                         ProId = (int)reader["ProId"],

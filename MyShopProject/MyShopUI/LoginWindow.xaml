@@ -33,7 +33,6 @@
         <PasswordBox x:Name="passwordBox" Canvas.Left="114" Canvas.Top="150" Style="{StaticResource loginBox}" HorizontalAlignment="Left" VerticalAlignment="Center" Width="210"/>
 
         <CheckBox x:Name="rememberMe" Content="Remember me" Foreground="White" Background="Transparent" BorderThickness="2" BorderBrush="White" Canvas.Left="209" Canvas.Top="195" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0.567,-0.168" Width="115"/>
-
         <Button x:Name="loginButton" Content="LOGIN" FontSize="18" Cursor="Hand" Background="Transparent" BorderBrush="White" BorderThickness="2" Foreground="White" Width="133" Height="42" Click="loginButton_Click" Canvas.Left="113" Canvas.Top="242" HorizontalAlignment="Center" VerticalAlignment="Top"/>
 
         <Button Content="Settings" Click="settingsButton_Click" Cursor="Hand" Canvas.Left="154" Canvas.Top="302" HorizontalAlignment="Center" VerticalAlignment="Top">

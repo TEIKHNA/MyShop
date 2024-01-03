@@ -82,7 +82,7 @@ namespace _Bus04_SimpleOrders
         {
             return _dao.getProductLimit(proId);
         }
-        
+
         public override int updateOrderPrice(int ordId)
         {
             return _dao.updateOrderPrice(ordId);
@@ -97,6 +97,5 @@ namespace _Bus04_SimpleOrders
         {
             return _dao.minusProductQuantity(proId);
         }
-
     }
 }

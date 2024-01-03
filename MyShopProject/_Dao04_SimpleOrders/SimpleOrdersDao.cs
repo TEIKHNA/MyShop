@@ -14,23 +14,26 @@ namespace _Dao04_SimpleOrders
     {
         public override int setCustomerToOrder(int? cusId, int ordId)
         {
-            string sql = @$"UPDATE Orders 
-                            SET CusId = @cusId
-                            WHERE OrdId = @ordId;";
+            string sql = @$"
+                UPDATE Orders 
+                SET CusId = @cusId
+                WHERE OrdId = @ordId;
+            ";
             if (cusId == 0 || cusId == null)
             {
-                sql = @$"UPDATE Orders 
-                         SET CusId = Null
-                         WHERE OrdId = @ordId;";
+                sql = @$"
+                    UPDATE Orders 
+                    SET CusId = Null
+                    WHERE OrdId = @ordId;
+                ";
             }
-
             var command = new SqlCommand(sql, DBInstance.Instance.Connection);
             command.Parameters.Add("@cusId", System.Data.SqlDbType.NVarChar).Value = cusId;
             command.Parameters.Add("@ordId", System.Data.SqlDbType.NVarChar).Value = ordId;
             int rowAffectedNum = (int)(command.ExecuteNonQuery());
             return rowAffectedNum;
         }
-        
+
         public override BindingList<Customer> getCustomers()
         {
             var sql = @"
@@ -38,7 +41,6 @@ namespace _Dao04_SimpleOrders
                 FROM Customers;
             ";
             var command = new SqlCommand(sql, DBInstance.Instance.Connection);
-
             var customers = new BindingList<Customer>();
             using (var reader = command.ExecuteReader())
             {
@@ -48,7 +50,7 @@ namespace _Dao04_SimpleOrders
                     {
                         CusId = (int)reader["CusId"],
                         Name = Convert.IsDBNull(reader["Name"]) ? null : (string)reader["Name"],
-                        Tel = Convert.IsDBNull(reader["Tel"]) ? null : (int)reader["Tel"],
+                        Tel = Convert.IsDBNull(reader["Tel"]) ? null : (string)reader["Tel"],
                         Address = Convert.IsDBNull(reader["Address"]) ? null : (string)reader["Address"],
                         Email = Convert.IsDBNull(reader["Email"]) ? null : (string)reader["Email"],
                     };
@@ -59,28 +61,27 @@ namespace _Dao04_SimpleOrders
 
         }
 
-
         public override int addOneOrder(Order order)
         {
             string sql = @$"
                 INSERT INTO Orders(CusId, FinalPrice, FinalProfit, CreatedAt, UpdatedAt) 
                 VALUES (@cusId, @finalPrice, @finalProfit, @createdAt, @updatedAt);
-                SELECT IDENT_CURRENT('Orders');";
+                SELECT IDENT_CURRENT('Orders');
+            ";
             if (order.CusId == 0 || order.CusId == null)
             {
                 sql = @$"
                     INSERT INTO Orders(FinalPrice, FinalProfit, CreatedAt, UpdatedAt) 
                     VALUES (@finalPrice, @finalProfit, @createdAt, @updatedAt);
-                    SELECT IDENT_CURRENT('Orders');";
+                    SELECT IDENT_CURRENT('Orders');
+                ";
             }
             var command = new SqlCommand(sql, DBInstance.Instance.Connection);
-            if (order.CusId != 0 && order.CusId!= null)
-                command.Parameters.Add("@cusId", System.Data.SqlDbType.Int).Value = order.CusId;
+            if (order.CusId != 0 && order.CusId != null) command.Parameters.Add("@cusId", System.Data.SqlDbType.Int).Value = order.CusId;
             command.Parameters.Add("@finalPrice", System.Data.SqlDbType.Int).Value = order.FinalPrice;
             command.Parameters.Add("@finalProfit", System.Data.SqlDbType.Int).Value = order.FinalProfit;
             command.Parameters.Add("@createdAt", System.Data.SqlDbType.DateTime).Value = DateTime.Now;
             command.Parameters.Add("@updatedAt", System.Data.SqlDbType.DateTime).Value = DateTime.Now;
-            
             int id = (int)((decimal)command.ExecuteScalar());
             return id;
         }
@@ -90,14 +91,14 @@ namespace _Dao04_SimpleOrders
             string sql = @$"
                 INSERT INTO OrderDetails(OrdId, ProId, Quantity, PricePerItem, ProfitPerItem) 
                 VALUES (@ordId, @proId, @quantity, @pricePerItem, @profitPerItem);
-                SELECT IDENT_CURRENT('OrderDetails');";
+                SELECT IDENT_CURRENT('OrderDetails');  
+            ";
             var command = new SqlCommand(sql, DBInstance.Instance.Connection);
             command.Parameters.Add("@ordId", System.Data.SqlDbType.Int).Value = detail.OrdId;
             command.Parameters.Add("@proId", System.Data.SqlDbType.Int).Value = detail.ProId;
             command.Parameters.Add("@quantity", System.Data.SqlDbType.Int).Value = detail.Quantity;
             command.Parameters.Add("@pricePerItem", System.Data.SqlDbType.Int).Value = detail.PricePerItem == null ? 0 : detail.PricePerItem;
             command.Parameters.Add("@profitPerItem", System.Data.SqlDbType.Int).Value = detail.ProfitPerItem == null ? 0 : detail.ProfitPerItem;
-
             int id = (int)((decimal)command.ExecuteScalar());
             return id;
         }
@@ -114,11 +115,9 @@ namespace _Dao04_SimpleOrders
         public override int delOneOrderDetail(int? id)
         {
             if (id == null) return 0;
-
             string sql = @"DELETE FROM OrderDetails WHERE OrdDetId = @id;";
             var command = new SqlCommand(sql, DBInstance.Instance.Connection);
             command.Parameters.Add("@id", System.Data.SqlDbType.Int).Value = id;
-
             int rowAffectedNum = command.ExecuteNonQuery();
             return rowAffectedNum;
         }
@@ -143,7 +142,6 @@ namespace _Dao04_SimpleOrders
             command.Parameters.Add("@ordDetId1", SqlDbType.Int).Value = detail.OrdDetId;
             command.Parameters.Add("@ordDetId2", SqlDbType.Int).Value = detail.OrdDetId;
             command.Parameters.Add("@proId", SqlDbType.Int).Value = detail.ProId;
-
             int rowAffectedNum = (int)(decimal)command.ExecuteNonQuery();
             return rowAffectedNum;
         }
@@ -184,7 +182,6 @@ namespace _Dao04_SimpleOrders
             ";
             var command = new SqlCommand(sql, DBInstance.Instance.Connection);
             command.Parameters.Add("@ordDetId", SqlDbType.Int).Value = id;
-
             OrderDetail? orderDetail = null;
             using (var reader = command.ExecuteReader())
             {
@@ -214,7 +211,6 @@ namespace _Dao04_SimpleOrders
             ";
             var command = new SqlCommand(sql, DBInstance.Instance.Connection);
             command.Parameters.Add("@ordId", SqlDbType.Int).Value = ordId;
-
             var orderDetails = new BindingList<OrderDetail>();
             using (var reader = command.ExecuteReader())
             {
@@ -374,7 +370,7 @@ namespace _Dao04_SimpleOrders
         public override int getProductLimit(int? proId)
         {
             if (proId == null || proId == 0) return 0;
-            
+
             string sql = @"SELECT Quantity FROM Products WHERE ProId = @proId;";
             var command = new SqlCommand(sql, DBInstance.Instance.Connection);
             command.Parameters.Add("@proId", System.Data.SqlDbType.Int).Value = proId;

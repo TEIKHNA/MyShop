@@ -14,9 +14,7 @@ namespace Utility
         {
             int price = (int)value;
             CultureInfo cul = CultureInfo.GetCultureInfo("vi-VN");
-
             string vnPrice = price.ToString("#,###đ", cul.NumberFormat);
-
             if (price == 0)
             {
                 vnPrice = "0,000đ";

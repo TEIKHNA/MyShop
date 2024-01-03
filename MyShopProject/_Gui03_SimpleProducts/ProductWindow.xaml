@@ -28,6 +28,7 @@
     <Window.Resources>
         <util:NumToDiscount x:Key="discountConverter"/>
     </Window.Resources>
+    
     <Canvas Margin="0,0,0,2">
         <fa:IconImage Icon="Book" Foreground="White" Canvas.Left="352" Canvas.Top="10" HorizontalAlignment="Center" VerticalAlignment="Center" Height="73" Width="72"/>
 
@@ -79,6 +80,5 @@
 
         <TextBlock Text="Image Path" HorizontalAlignment="Center" Canvas.Left="449" Canvas.Top="271" VerticalAlignment="Top"/>
         <TextBox x:Name="imagePath" Text="{Binding ImagePath}" FontSize="13" VerticalContentAlignment="Center" Height="26" Width="198" HorizontalAlignment="Center" Canvas.Left="555" Canvas.Top="269" VerticalAlignment="Top"/>
-
     </Canvas>
 </Window>

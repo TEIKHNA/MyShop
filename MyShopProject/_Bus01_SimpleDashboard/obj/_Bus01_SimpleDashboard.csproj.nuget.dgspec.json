@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj": {}
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj": {}
   },
   "projects": {
-    "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj": {
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj",
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj",
         "projectName": "Contract01_Dashboard",
-        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj",
         "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract01_Dashboard\\obj\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract01_Dashboard\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
               }
             }
           }
@@ -88,14 +88,14 @@
         }
       }
     },
-    "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj": {
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj",
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\obj\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -178,14 +178,14 @@
         }
       }
     },
-    "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj": {
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj",
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj",
         "projectName": "_Bus01_SimpleDashboard",
-        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj",
         "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus01_SimpleDashboard\\obj\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus01_SimpleDashboard\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -207,11 +207,11 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj"
               },
-              "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj"
+              "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
               }
             }
           }

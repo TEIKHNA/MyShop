@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jv8ccCApFSsHFeci59JZoPfjvYp1WYhxCUR3CZsRAsGlt9KGEe8rlDYYlyEzoYAACjVlpRni4FfvcLETgj/m3w==",
+  "dgSpecHash": "gHnYUBO6QpKbJ+HvxMEuoJynPjYyMeCaZbt2TvxAOBbf9QBakQPvkc0yPvczmPSm7y2KRNYuhBxyBeXZgE0pTQ==",
   "success": true,
-  "projectFilePath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus03_SimpleProducts\\_Bus03_SimpleProducts.csproj",
+  "projectFilePath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus03_SimpleProducts\\_Bus03_SimpleProducts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MYLAP.VN\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\MYLAP.VN\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

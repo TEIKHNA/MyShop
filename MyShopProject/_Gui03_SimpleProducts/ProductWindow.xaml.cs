@@ -21,18 +21,13 @@ namespace _Gui03_SimpleProducts
     public partial class ProductWindow : Window
     {
         public Product? _prod;
-
         private ProductsIBus _bus;
-
         private BindingList<Category> _categories = new BindingList<Category>();
-
         private BindingList<Promotion> _promotions = new BindingList<Promotion>();
-
         bool isEdited = true;
-
         bool hasPromotion = false;
-
         int? _firstDiscount = 0;
+
         public ProductWindow(ProductsIBus bus, Product prod = null)
         {
             if (prod == null)
@@ -52,24 +47,22 @@ namespace _Gui03_SimpleProducts
                     PromId = null,
                     ImagePath = ""
                 };
-            } 
-            else
-            { 
-                _prod = (Product)prod.Clone(); 
             }
-            if(_prod.CatId == null) 
+            else
+            {
+                _prod = (Product)prod.Clone();
+            }
+            if (_prod.CatId == null)
             {
                 _prod.CatId = 1;
             }
             _bus = bus;
-
             InitializeComponent();
         }
 
         private void window_Loaded(object sender, RoutedEventArgs e)
         {
             _categories = _bus.getCategories();
-
             categoryComboBox.ItemsSource = _categories;
             if (_prod?.CatId != 1)
             {
@@ -86,7 +79,6 @@ namespace _Gui03_SimpleProducts
             {
                 categoryComboBox.SelectedIndex = 0;
             }
-
 
             _promotions = _bus.getPromotions();
             promotionpComboBox.ItemsSource = _promotions;
@@ -118,20 +110,19 @@ namespace _Gui03_SimpleProducts
             var promotion = (Promotion)promotionpComboBox.SelectedItem;
             if (hasPromotion && promotion != null && promotion.PromId != 0)
             {
-                _prod.PromId = promotion.PromId;
+                _prod!.PromId = promotion.PromId;
                 _prod.Discount = promotion.DiscountPercent;
                 _prod.SellingPrice = (_prod.SellingPrice * 100 / (100 - _firstDiscount)) * (100 - promotion.DiscountPercent) / 100;
             }
             else
             {
-                _prod.SellingPrice = (_prod.SellingPrice * 100 / (100 - _firstDiscount));
+                _prod!.SellingPrice = (_prod.SellingPrice * 100 / (100 - _firstDiscount));
                 _prod.Discount = 0;
                 _prod.PromId = null;
             }
-
             var category = (Category)categoryComboBox.SelectedItem;
             if (category != null)
-            { 
+            {
                 _prod.CatId = category.CatId;
             }
             else

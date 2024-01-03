@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "27QcTN2q4e9v6tDZPVSuDNAWg/5soOUUWItVa6I2seVl7s8LhsOCfabbaHKCKmFgHOkXpVjHtrFLLdJBPG3W4A==",
+  "dgSpecHash": "xhlu5t0ecVy/PD+NdRjRvZNOjA/iCVCoRRWJwCw89sMKOn65xCpu+fNhmFB0o9rndj83qgcSXK5AkHXSxdqlLg==",
   "success": true,
-  "projectFilePath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Utility\\Utility.csproj",
+  "projectFilePath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Utility\\Utility.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MYLAP.VN\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
     "C:\\Users\\MYLAP.VN\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",

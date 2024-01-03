@@ -12,14 +12,12 @@ namespace Entity
         public int OrdDetId { get; set; }
         public int? OrdId { get; set; }
         public int? ProId { get; set; }
-        public int? Quantity {  get; set; }  
+        public int? Quantity { get; set; }
         public int? PricePerItem { get; set; }
         public int? ProfitPerItem { get; set; }
 
         public string? ProName { get; set; } = null;
-
         public string? ImagePath { get; set; } = null;
-
 
         public event PropertyChangedEventHandler? PropertyChanged;
 

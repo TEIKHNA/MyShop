@@ -60,9 +60,7 @@
             </Canvas>
         </Border>
 
-        <Border CornerRadius="0 0 30 30" Background="White" 
-                Height="431" Width="624" BorderBrush="Gray"
-                Canvas.Left="28" Canvas.Top="223" HorizontalAlignment="Center" VerticalAlignment="Top" >
+        <Border CornerRadius="0 0 30 30" Background="White" Height="431" Width="624" BorderBrush="Gray" Canvas.Left="28" Canvas.Top="223" HorizontalAlignment="Center" VerticalAlignment="Top" >
             <Border.Effect>
                 <DropShadowEffect ShadowDepth="3"  BlurRadius="10" Opacity="0.6"/>
             </Border.Effect>
@@ -76,13 +74,11 @@
                         <ColumnDefinition Width="300"/>
                         <ColumnDefinition Width="150"/>
                         <ColumnDefinition Width="*"/>
-
                     </Grid.ColumnDefinitions>
                     <TextBlock FontSize="14" Text="Title" FontWeight="Bold" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Column="1"/>
                     <TextBlock FontSize="14" Text="Author" FontWeight="Bold" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Column="2"/>
                     <TextBlock FontSize="14" Text="Quantity" FontWeight="Bold" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Column="3"/>
                 </Grid>
-
 
                 <ListView Width="596" Height="357" 
                           Name="ProductsListView" 
@@ -91,6 +87,18 @@
                           HorizontalAlignment="Center" 
                           VerticalAlignment="Top" 
                           BorderThickness="0">
+                    <ListView.ItemContainerStyle>
+                        <Style TargetType="{x:Type ListViewItem}">
+                            <Setter Property="Background" Value="Transparent" />
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type ListViewItem}">
+                                        <ContentPresenter />
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </ListView.ItemContainerStyle>
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <Grid Margin="0 5 0 5" Width="596" Canvas.Left="10" Canvas.Top="38" HorizontalAlignment="Center" VerticalAlignment="Center">
@@ -120,7 +128,5 @@
                 </ListView>
             </Canvas>
         </Border>
-
-
     </Canvas>
 </UserControl>

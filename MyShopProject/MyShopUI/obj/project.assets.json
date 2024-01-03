@@ -96,6 +96,27 @@
           "Microsoft.WindowsDesktop.App"
         ]
       },
+      "LiveCharts.Wpf.NetCore3/0.9.8": {
+        "type": "package",
+        "dependencies": {
+          "System.Data.DataSetExtensions": "4.5.0"
+        },
+        "compile": {
+          "lib/net7.0-windows7.0/LiveCharts.Wpf.dll": {},
+          "lib/net7.0-windows7.0/LiveCharts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows7.0/LiveCharts.Wpf.dll": {},
+          "lib/net7.0-windows7.0/LiveCharts.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -397,6 +418,15 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Data.DataSetExtensions/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Data.DataSetExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Data.DataSetExtensions.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -861,6 +891,54 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
+      "Contract05_Report/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Contract05_Report.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contract05_Report.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Contract06_Promotions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Contract06_Promotions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contract06_Promotions.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Contract07_Customers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Contract07_Customers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contract07_Customers.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "DB/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -976,6 +1054,57 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
+      "_Bus05_SimpleReport/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Contract05_Report": "1.0.0",
+          "Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/_Bus05_SimpleReport.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/_Bus05_SimpleReport.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "_Bus06_SimplePromotions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Contract06_Promotions": "1.0.0",
+          "Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/_Bus06_SimplePromotions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/_Bus06_SimplePromotions.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "_Bus07_SimpleCustomers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entity": "1.0.0",
+          "_Gui07_SimpleCustomers": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/_Bus07_SimpleCustomers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/_Bus07_SimpleCustomers.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "_Dao01_SimpleDashboard/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -1045,6 +1174,60 @@
         },
         "runtime": {
           "bin/placeholder/_Dao04_SimpleOrders.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "_Dao05_SimpleReport/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Contract05_Report": "1.0.0",
+          "DB": "1.0.0",
+          "Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/_Dao05_SimpleReport.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/_Dao05_SimpleReport.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "_Dao06_SimplePromotions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Contract06_Promotions": "1.0.0",
+          "DB": "1.0.0",
+          "Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/_Dao06_SimplePromotions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/_Dao06_SimplePromotions.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "_Dao07_SimpleCustomers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Contract07_Customers": "1.0.0",
+          "DB": "1.0.0",
+          "Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/_Dao07_SimpleCustomers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/_Dao07_SimpleCustomers.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
@@ -1124,6 +1307,67 @@
         },
         "runtime": {
           "bin/placeholder/_Gui04_SimpleOrders.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "_Gui05_SimpleReport/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Contract05_Report": "1.0.0",
+          "DB": "1.0.0",
+          "Entity": "1.0.0",
+          "FontAwesome.Sharp": "6.3.0",
+          "LiveCharts.Wpf.NetCore3": "0.9.8",
+          "Utility": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/_Gui05_SimpleReport.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/_Gui05_SimpleReport.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "_Gui06_SimplePromotions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Contract06_Promotions": "1.0.0",
+          "DB": "1.0.0",
+          "Entity": "1.0.0",
+          "FontAwesome.Sharp": "6.3.0",
+          "Utility": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/_Gui06_SimplePromotions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/_Gui06_SimplePromotions.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "_Gui07_SimpleCustomers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Contract07_Customers": "1.0.0",
+          "DB": "1.0.0",
+          "Entity": "1.0.0",
+          "FontAwesome.Sharp": "6.3.0",
+          "Utility": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/_Gui07_SimpleCustomers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/_Gui07_SimpleCustomers.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
@@ -1256,6 +1500,32 @@
         "lib/net48/FontAwesome.Sharp.dll",
         "lib/net6.0-windows7.0/FontAwesome.Sharp.dll",
         "lib/netcoreapp3.1/FontAwesome.Sharp.dll"
+      ]
+    },
+    "LiveCharts.Wpf.NetCore3/0.9.8": {
+      "sha512": "EWwggMrRkWOdt/TdFhcs0LIXzpEuN392zGB+tLcO4UinKV13+V3NyhFoURPVP3GmQXjgrrlMDp+zyuSQeut53w==",
+      "type": "package",
+      "path": "livecharts.wpf.netcore3/0.9.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/LiveCharts.Wpf.dll",
+        "lib/net40/LiveCharts.dll",
+        "lib/net40/LiveCharts.xml",
+        "lib/net6.0-windows7.0/LiveCharts.Wpf.dll",
+        "lib/net6.0-windows7.0/LiveCharts.dll",
+        "lib/net6.0-windows7.0/LiveCharts.xml",
+        "lib/net7.0-windows7.0/LiveCharts.Wpf.dll",
+        "lib/net7.0-windows7.0/LiveCharts.dll",
+        "lib/net7.0-windows7.0/LiveCharts.xml",
+        "lib/net8.0-windows7.0/LiveCharts.Wpf.dll",
+        "lib/net8.0-windows7.0/LiveCharts.dll",
+        "lib/net8.0-windows7.0/LiveCharts.xml",
+        "lib/netcoreapp3.1/LiveCharts.Wpf.dll",
+        "lib/netcoreapp3.1/LiveCharts.dll",
+        "lib/netcoreapp3.1/LiveCharts.xml",
+        "livecharts.wpf.netcore3.0.9.8.nupkg.sha512",
+        "livecharts.wpf.netcore3.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -1728,6 +1998,25 @@
         "system.configuration.configurationmanager.6.0.1.nupkg.sha512",
         "system.configuration.configurationmanager.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Data.DataSetExtensions/4.5.0": {
+      "sha512": "221clPs1445HkTBZPL+K9sDBdJRB8UN8rgjO3ztB0CQ26z//fmJXtlsr6whGatscsKGBrhJl5bwJuKSA8mwFOw==",
+      "type": "package",
+      "path": "system.data.datasetextensions/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net45/_._",
+        "lib/netstandard2.0/System.Data.DataSetExtensions.dll",
+        "ref/net45/_._",
+        "ref/netstandard2.0/System.Data.DataSetExtensions.dll",
+        "system.data.datasetextensions.4.5.0.nupkg.sha512",
+        "system.data.datasetextensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -2571,6 +2860,21 @@
       "path": "../Contract04_Orders/Contract04_Orders.csproj",
       "msbuildProject": "../Contract04_Orders/Contract04_Orders.csproj"
     },
+    "Contract05_Report/1.0.0": {
+      "type": "project",
+      "path": "../Contract05_Report/Contract05_Report.csproj",
+      "msbuildProject": "../Contract05_Report/Contract05_Report.csproj"
+    },
+    "Contract06_Promotions/1.0.0": {
+      "type": "project",
+      "path": "../Contract06_Promotions/Contract06_Promotions.csproj",
+      "msbuildProject": "../Contract06_Promotions/Contract06_Promotions.csproj"
+    },
+    "Contract07_Customers/1.0.0": {
+      "type": "project",
+      "path": "../Contract07_Customers/Contract07_Customers.csproj",
+      "msbuildProject": "../Contract07_Customers/Contract07_Customers.csproj"
+    },
     "DB/1.0.0": {
       "type": "project",
       "path": "../DB/DB.csproj",
@@ -2606,6 +2910,21 @@
       "path": "../_Bus04_SimpleOrders/_Bus04_SimpleOrders.csproj",
       "msbuildProject": "../_Bus04_SimpleOrders/_Bus04_SimpleOrders.csproj"
     },
+    "_Bus05_SimpleReport/1.0.0": {
+      "type": "project",
+      "path": "../_Bus05_SimpleReport/_Bus05_SimpleReport.csproj",
+      "msbuildProject": "../_Bus05_SimpleReport/_Bus05_SimpleReport.csproj"
+    },
+    "_Bus06_SimplePromotions/1.0.0": {
+      "type": "project",
+      "path": "../_Bus06_SimplePromotions/_Bus06_SimplePromotions.csproj",
+      "msbuildProject": "../_Bus06_SimplePromotions/_Bus06_SimplePromotions.csproj"
+    },
+    "_Bus07_SimpleCustomers/1.0.0": {
+      "type": "project",
+      "path": "../_Bus07_SimpleCustomers/_Bus07_SimpleCustomers.csproj",
+      "msbuildProject": "../_Bus07_SimpleCustomers/_Bus07_SimpleCustomers.csproj"
+    },
     "_Dao01_SimpleDashboard/1.0.0": {
       "type": "project",
       "path": "../_Dao01_SimpleDashboard/_Dao01_SimpleDashboard.csproj",
@@ -2626,6 +2945,21 @@
       "path": "../_Dao04_SimpleOrders/_Dao04_SimpleOrders.csproj",
       "msbuildProject": "../_Dao04_SimpleOrders/_Dao04_SimpleOrders.csproj"
     },
+    "_Dao05_SimpleReport/1.0.0": {
+      "type": "project",
+      "path": "../_Dao05_SimpleReport/_Dao05_SimpleReport.csproj",
+      "msbuildProject": "../_Dao05_SimpleReport/_Dao05_SimpleReport.csproj"
+    },
+    "_Dao06_SimplePromotions/1.0.0": {
+      "type": "project",
+      "path": "../_Dao06_SimplePromotions/_Dao06_SimplePromotions.csproj",
+      "msbuildProject": "../_Dao06_SimplePromotions/_Dao06_SimplePromotions.csproj"
+    },
+    "_Dao07_SimpleCustomers/1.0.0": {
+      "type": "project",
+      "path": "../_Dao07_SimpleCustomers/_Dao07_SimpleCustomers.csproj",
+      "msbuildProject": "../_Dao07_SimpleCustomers/_Dao07_SimpleCustomers.csproj"
+    },
     "_Gui01_SimpleDashboard/1.0.0": {
       "type": "project",
       "path": "../_Gui01_SimpleDashboard/_Gui01_SimpleDashboard.csproj",
@@ -2645,6 +2979,21 @@
       "type": "project",
       "path": "../_Gui04_SimpleOrders/_Gui04_SimpleOrders.csproj",
       "msbuildProject": "../_Gui04_SimpleOrders/_Gui04_SimpleOrders.csproj"
+    },
+    "_Gui05_SimpleReport/1.0.0": {
+      "type": "project",
+      "path": "../_Gui05_SimpleReport/_Gui05_SimpleReport.csproj",
+      "msbuildProject": "../_Gui05_SimpleReport/_Gui05_SimpleReport.csproj"
+    },
+    "_Gui06_SimplePromotions/1.0.0": {
+      "type": "project",
+      "path": "../_Gui06_SimplePromotions/_Gui06_SimplePromotions.csproj",
+      "msbuildProject": "../_Gui06_SimplePromotions/_Gui06_SimplePromotions.csproj"
+    },
+    "_Gui07_SimpleCustomers/1.0.0": {
+      "type": "project",
+      "path": "../_Gui07_SimpleCustomers/_Gui07_SimpleCustomers.csproj",
+      "msbuildProject": "../_Gui07_SimpleCustomers/_Gui07_SimpleCustomers.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2653,6 +3002,9 @@
       "Contract02_Categories >= 1.0.0",
       "Contract03_Products >= 1.0.0",
       "Contract04_Orders >= 1.0.0",
+      "Contract05_Report >= 1.0.0",
+      "Contract06_Promotions >= 1.0.0",
+      "Contract07_Customers >= 1.0.0",
       "DB >= 1.0.0",
       "Entity >= 1.0.0",
       "FontAwesome.Sharp >= 6.3.0",
@@ -2661,14 +3013,23 @@
       "_Bus02_SimpleCategories >= 1.0.0",
       "_Bus03_SimpleProducts >= 1.0.0",
       "_Bus04_SimpleOrders >= 1.0.0",
+      "_Bus05_SimpleReport >= 1.0.0",
+      "_Bus06_SimplePromotions >= 1.0.0",
+      "_Bus07_SimpleCustomers >= 1.0.0",
       "_Dao01_SimpleDashboard >= 1.0.0",
       "_Dao02_SimpleCategories >= 1.0.0",
       "_Dao03_SimpleProducts >= 1.0.0",
       "_Dao04_SimpleOrders >= 1.0.0",
+      "_Dao05_SimpleReport >= 1.0.0",
+      "_Dao06_SimplePromotions >= 1.0.0",
+      "_Dao07_SimpleCustomers >= 1.0.0",
       "_Gui01_SimpleDashboard >= 1.0.0",
       "_Gui02_SimpleCategories >= 1.0.0",
       "_Gui03_SimpleProducts >= 1.0.0",
-      "_Gui04_SimpleOrders >= 1.0.0"
+      "_Gui04_SimpleOrders >= 1.0.0",
+      "_Gui05_SimpleReport >= 1.0.0",
+      "_Gui06_SimplePromotions >= 1.0.0",
+      "_Gui07_SimpleCustomers >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2678,11 +3039,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\MyShopUI\\MyShopUI.csproj",
+      "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\MyShopUI\\MyShopUI.csproj",
       "projectName": "MyShopUI",
-      "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\MyShopUI\\MyShopUI.csproj",
+      "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\MyShopUI\\MyShopUI.csproj",
       "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-      "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\MyShopUI\\obj\\",
+      "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\MyShopUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2704,62 +3065,98 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "projectReferences": {
-            "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj"
             },
-            "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj"
             },
-            "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj"
             },
-            "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj"
             },
-            "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\DB\\DB.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\DB\\DB.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract05_Report\\Contract05_Report.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract05_Report\\Contract05_Report.csproj"
             },
-            "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Entity\\Entity.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract06_Promotions\\Contract06_Promotions.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract06_Promotions\\Contract06_Promotions.csproj"
             },
-            "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Utility\\Utility.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\Utility\\Utility.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract07_Customers\\Contract07_Customers.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Contract07_Customers\\Contract07_Customers.csproj"
             },
-            "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\DB\\DB.csproj"
             },
-            "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus02_SimpleCategories\\_Bus02_SimpleCategories.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus02_SimpleCategories\\_Bus02_SimpleCategories.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Entity\\Entity.csproj"
             },
-            "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus03_SimpleProducts\\_Bus03_SimpleProducts.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus03_SimpleProducts\\_Bus03_SimpleProducts.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Utility\\Utility.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\Utility\\Utility.csproj"
             },
-            "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus04_SimpleOrders\\_Bus04_SimpleOrders.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Bus04_SimpleOrders\\_Bus04_SimpleOrders.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj"
             },
-            "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao01_SimpleDashboard\\_Dao01_SimpleDashboard.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao01_SimpleDashboard\\_Dao01_SimpleDashboard.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus02_SimpleCategories\\_Bus02_SimpleCategories.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus02_SimpleCategories\\_Bus02_SimpleCategories.csproj"
             },
-            "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao02_SimpleCategories\\_Dao02_SimpleCategories.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao02_SimpleCategories\\_Dao02_SimpleCategories.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus03_SimpleProducts\\_Bus03_SimpleProducts.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus03_SimpleProducts\\_Bus03_SimpleProducts.csproj"
             },
-            "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao03_SimpleProducts\\_Dao03_SimpleProducts.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao03_SimpleProducts\\_Dao03_SimpleProducts.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus04_SimpleOrders\\_Bus04_SimpleOrders.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus04_SimpleOrders\\_Bus04_SimpleOrders.csproj"
             },
-            "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao04_SimpleOrders\\_Dao04_SimpleOrders.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao04_SimpleOrders\\_Dao04_SimpleOrders.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus05_SimpleReport\\_Bus05_SimpleReport.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus05_SimpleReport\\_Bus05_SimpleReport.csproj"
             },
-            "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui01_SimpleDashboard\\_Gui01_SimpleDashboard.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui01_SimpleDashboard\\_Gui01_SimpleDashboard.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus06_SimplePromotions\\_Bus06_SimplePromotions.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus06_SimplePromotions\\_Bus06_SimplePromotions.csproj"
             },
-            "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui02_SimpleCategories\\_Gui02_SimpleCategories.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui02_SimpleCategories\\_Gui02_SimpleCategories.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus07_SimpleCustomers\\_Bus07_SimpleCustomers.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Bus07_SimpleCustomers\\_Bus07_SimpleCustomers.csproj"
             },
-            "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui03_SimpleProducts\\_Gui03_SimpleProducts.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui03_SimpleProducts\\_Gui03_SimpleProducts.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao01_SimpleDashboard\\_Dao01_SimpleDashboard.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao01_SimpleDashboard\\_Dao01_SimpleDashboard.csproj"
             },
-            "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui04_SimpleOrders\\_Gui04_SimpleOrders.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Gui04_SimpleOrders\\_Gui04_SimpleOrders.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao02_SimpleCategories\\_Dao02_SimpleCategories.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao02_SimpleCategories\\_Dao02_SimpleCategories.csproj"
+            },
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao03_SimpleProducts\\_Dao03_SimpleProducts.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao03_SimpleProducts\\_Dao03_SimpleProducts.csproj"
+            },
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao04_SimpleOrders\\_Dao04_SimpleOrders.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao04_SimpleOrders\\_Dao04_SimpleOrders.csproj"
+            },
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao05_SimpleReport\\_Dao05_SimpleReport.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao05_SimpleReport\\_Dao05_SimpleReport.csproj"
+            },
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao06_SimplePromotions\\_Dao06_SimplePromotions.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao06_SimplePromotions\\_Dao06_SimplePromotions.csproj"
+            },
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao07_SimpleCustomers\\_Dao07_SimpleCustomers.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao07_SimpleCustomers\\_Dao07_SimpleCustomers.csproj"
+            },
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui01_SimpleDashboard\\_Gui01_SimpleDashboard.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui01_SimpleDashboard\\_Gui01_SimpleDashboard.csproj"
+            },
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui02_SimpleCategories\\_Gui02_SimpleCategories.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui02_SimpleCategories\\_Gui02_SimpleCategories.csproj"
+            },
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui03_SimpleProducts\\_Gui03_SimpleProducts.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui03_SimpleProducts\\_Gui03_SimpleProducts.csproj"
+            },
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui04_SimpleOrders\\_Gui04_SimpleOrders.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui04_SimpleOrders\\_Gui04_SimpleOrders.csproj"
+            },
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui05_SimpleReport\\_Gui05_SimpleReport.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui05_SimpleReport\\_Gui05_SimpleReport.csproj"
+            },
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui06_SimplePromotions\\_Gui06_SimplePromotions.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui06_SimplePromotions\\_Gui06_SimplePromotions.csproj"
+            },
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui07_SimpleCustomers\\_Gui07_SimpleCustomers.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Gui07_SimpleCustomers\\_Gui07_SimpleCustomers.csproj"
             }
           }
         }

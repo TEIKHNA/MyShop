@@ -13,6 +13,5 @@ namespace Contract04_Orders
         protected OrdersIBus _bus;
         public abstract UserControl getMainWindow();
         public abstract OrdersIGui createNew(OrdersIBus bus);
-
     }
 }

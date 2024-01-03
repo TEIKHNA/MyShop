@@ -34,6 +34,5 @@ namespace _Gui01_SimpleDashboard
             totalOrdersTextBlock.Text = (_bus.countTotalCurrentWeekOrders()).ToString();
             ProductsListView.ItemsSource = (_bus.getTop5ExpireProducts());
         }
-
     }
 }

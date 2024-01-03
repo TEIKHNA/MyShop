@@ -11,7 +11,7 @@ namespace _Gui04_SimpleOrders
             return new SimpleOrdersGui(bus);
         }
 
-        public SimpleOrdersGui ()
+        public SimpleOrdersGui()
         {
 
         }

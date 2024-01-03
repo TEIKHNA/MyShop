@@ -14,18 +14,21 @@ namespace _Dao03_SimpleProducts
     {
         public override int add(Product prod)
         {
-            string sql = @$"INSERT INTO Products(CatId, Title, Description, Author, PublishedYear, Quantity, OriginalPrice, SellingPrice, PromId, ImagePath, CreatedAt, UpdatedAt)
-                            VALUES(@catId, @title, @description, @author, @publishedYear, @quantity, @originalPrice, @sellingPrice, @promId, @imagePath, @createdAt, @updatedAt);
-                            SELECT IDENT_CURRENT('Products');";
+            string sql = @$"
+                INSERT INTO Products(CatId, Title, Description, Author, PublishedYear, Quantity, OriginalPrice, SellingPrice, PromId, ImagePath, CreatedAt, UpdatedAt)
+                VALUES(@catId, @title, @description, @author, @publishedYear, @quantity, @originalPrice, @sellingPrice, @promId, @imagePath, @createdAt, @updatedAt);
+                SELECT IDENT_CURRENT('Products');
+            ";
             if (prod.PromId == null)
             {
-                sql = @$"INSERT INTO Products(CatId, Title, Description, Author, PublishedYear, Quantity, OriginalPrice, SellingPrice, ImagePath, CreatedAt, UpdatedAt)
-                            VALUES(@catId, @title, @description, @author, @publishedYear, @quantity, @originalPrice, @sellingPrice, @imagePath, @createdAt, @updatedAt);
-                            SELECT IDENT_CURRENT('Products');";
+                sql = @$"
+                    INSERT INTO Products(CatId, Title, Description, Author, PublishedYear, Quantity, OriginalPrice, SellingPrice, ImagePath, CreatedAt, UpdatedAt)
+                    VALUES(@catId, @title, @description, @author, @publishedYear, @quantity, @originalPrice, @sellingPrice, @imagePath, @createdAt, @updatedAt);
+                    SELECT IDENT_CURRENT('Products');
+                ";
             }
             var command = new SqlCommand(sql, DBInstance.Instance.Connection);
-            if (prod.PromId != null)
-                command.Parameters.Add("@promId", System.Data.SqlDbType.Int).Value = prod.PromId;
+            if (prod.PromId != null) command.Parameters.Add("@promId", System.Data.SqlDbType.Int).Value = prod.PromId;
             command.Parameters.Add("@catId", System.Data.SqlDbType.Int).Value = prod.CatId;
             command.Parameters.Add("@title", System.Data.SqlDbType.NVarChar).Value = prod.Title;
             command.Parameters.Add("@description", System.Data.SqlDbType.NVarChar).Value = prod.Description;
@@ -69,10 +72,9 @@ namespace _Dao03_SimpleProducts
                     Where ProId = @id;
                 ";
             }
-            
+
             var command = new SqlCommand(sql, DBInstance.Instance.Connection);
-            if (prod.PromId != null)
-                command.Parameters.Add("@promId", System.Data.SqlDbType.Int).Value = prod.PromId;
+            if (prod.PromId != null) command.Parameters.Add("@promId", System.Data.SqlDbType.Int).Value = prod.PromId;
             command.Parameters.Add("@catId", System.Data.SqlDbType.Int).Value = prod.CatId;
             command.Parameters.Add("@title", System.Data.SqlDbType.NVarChar).Value = prod.Title;
             command.Parameters.Add("@description", System.Data.SqlDbType.NVarChar).Value = prod.Description;
@@ -140,7 +142,7 @@ namespace _Dao03_SimpleProducts
             command.Parameters.Add("@end", SqlDbType.Int).Value = endPrice;
             command.Parameters.Add("@keywordTitle", SqlDbType.Text).Value = $"%{keyword}%";
             command.Parameters.Add("@keywordAuthor", SqlDbType.Text).Value = $"%{keyword}%";
-            if(catId != 0)
+            if (catId != 0)
             {
                 command.Parameters.Add("@catId", SqlDbType.Int).Value = catId;
             }
@@ -168,7 +170,6 @@ namespace _Dao03_SimpleProducts
                         UpdatedAt = Convert.IsDBNull(reader["UpdatedAt"]) ? null : (DateTime)reader["UpdatedAt"]
                     };
                     products.Add(product);
-
                     count = (int)reader["Total"];
                 }
             }
@@ -200,7 +201,6 @@ namespace _Dao03_SimpleProducts
         public override BindingList<Product> import(string config)
         {
             var rs = new BindingList<Product>();
-
             string filename = "Assets/Imports/" + config + ".xlsx";
             var document = SpreadsheetDocument.Open(filename, false);
             var wbPart = document.WorkbookPart!;
@@ -211,7 +211,6 @@ namespace _Dao03_SimpleProducts
                     .GetPartsOfType<SharedStringTablePart>()
                     .FirstOrDefault()!;
             var cells = wsPart.Worksheet.Descendants<Cell>();
-
             int row = 2;
             Cell catIdCell;
             do
@@ -282,7 +281,7 @@ namespace _Dao03_SimpleProducts
                         var command = new SqlCommand(sql, DBInstance.Instance.Connection);
                         command.Parameters.Add("@promId", System.Data.SqlDbType.Int).Value = promId;
                         int discount = (int)(decimal)command.ExecuteScalar();
-                        if  (discount > 0)
+                        if (discount > 0)
                         {
                             sellingPrice = (100 - discount) * sellingPrice / 100;
                         }

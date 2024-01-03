@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xGjx95WAvBaQFI0ksS7anvA884votH3G76EOA+ZLbUtLbcG1UCI2U/gh/bXLraSD/iqqyeFFPgB/B7YH4q055w==",
+  "dgSpecHash": "FuSYGzz39ywTzpR3A+mjjJpjE4eacBUwpAMg3cZ6/D+K2vORYmPNtoBCsIbr6Jz5kHRCvKtirSm22RR9z5RZdA==",
   "success": true,
-  "projectFilePath": "D:\\DEADLINES\\LTW\\MYSHOP\\MyShopProject\\_Dao03_SimpleProducts\\_Dao03_SimpleProducts.csproj",
+  "projectFilePath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\MyShopProject\\_Dao03_SimpleProducts\\_Dao03_SimpleProducts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MYLAP.VN\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\MYLAP.VN\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

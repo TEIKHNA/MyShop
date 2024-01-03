@@ -41,18 +41,18 @@ namespace MyShopUI
                 var entropyInBytes = Convert.FromBase64String(entropyIn64!);
 
                 var passwordInBytes = ProtectedData.Unprotect(
-                    cyperTextInBytes, 
+                    cyperTextInBytes,
                     entropyInBytes,
                     DataProtectionScope.CurrentUser
                 );
                 var password = Encoding.UTF8.GetString(passwordInBytes);
-               
+
                 passwordBox.Password = password;
                 usernameTextBox.Text = ConfigurationManager.AppSettings["Username"];
             }
 
             var db = DBInstance.Instance;
-            db.set (
+            db.set(
                 ConfigurationManager.AppSettings["Server"],
                 ConfigurationManager.AppSettings["Database"],
                 ConfigurationManager.AppSettings["DBUn"],
@@ -73,7 +73,7 @@ namespace MyShopUI
             if (screen.ShowDialog()!.Value != true)
             {
                 DBInstance.Instance.set(clone.DataSource, clone.InitialCatalog, clone.UserID, clone.Password);
-            } 
+            }
             else
             {
                 var config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
@@ -154,9 +154,8 @@ namespace MyShopUI
                 Debug.WriteLine(command.ToString());
                 using (var reader = command.ExecuteReader())
                 {
-                    if(reader.Read())
+                    if (reader.Read())
                     {
-                        
                         var role = (string)reader["Role"];
                         DBInstance.Instance.connect();
                         var screen = new MainWindow(role);

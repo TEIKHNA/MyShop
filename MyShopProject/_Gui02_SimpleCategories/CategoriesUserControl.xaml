@@ -37,25 +37,24 @@
                 </Border.Effect>
                 <Canvas>
                     <TextBlock FontSize="14" Foreground="Gray" Canvas.Left="12" Canvas.Top="15" HorizontalAlignment="Center" VerticalAlignment="Top" Text="Category"/>
-
                     <Button HorizontalAlignment="Left"
-                         Click="saveButton_Click"
-                         Height="34"
-                         FontSize="15"
-                         BorderThickness="2"
-                         Background="Transparent"
-                         BorderBrush="MediumPurple"
-                         Canvas.Left="522" Canvas.Top="158" VerticalAlignment="Center" Width="55">
+                            Click="saveButton_Click"
+                            Height="34" Width="55"
+                            FontSize="15" BorderThickness="2"
+                            Background="Transparent"
+                            BorderBrush="MediumPurple"
+                            Canvas.Left="522" Canvas.Top="158" 
+                            VerticalAlignment="Center">
                         <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">Save</TextBlock>
                     </Button>
                     <Button HorizontalAlignment="Left"
-                             Click="cancelButton_Click"
-                             Height="34"
-                             FontSize="15"
-                             BorderThickness="2"
-                             Background="Transparent"
-                             BorderBrush="Red"
-                             Canvas.Left="446" Canvas.Top="158" VerticalAlignment="Center" Width="55">
+                            Click="cancelButton_Click"
+                            Height="34" Width="55"
+                            FontSize="15" BorderThickness="2"
+                            Background="Transparent"
+                            BorderBrush="Red"
+                            Canvas.Left="446" Canvas.Top="158" 
+                            VerticalAlignment="Center">
                         <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">Cancel</TextBlock>
                     </Button>
 
@@ -63,15 +62,13 @@
                          <fa:IconImage Width="12" Foreground="Black" IconFont="Solid"  Icon="CircleDot"/>
                          <Run FontSize="18">Name</Run>
                     </TextBlock>
-                    <TextBox FontSize="15" VerticalContentAlignment="Center" 
-                             Name="nameTextBox" HorizontalAlignment="Center" VerticalAlignment="Center" Width="438" Canvas.Left="139" Canvas.Top="46" Height="24"></TextBox>
+                    <TextBox FontSize="15" VerticalContentAlignment="Center" Name="nameTextBox" HorizontalAlignment="Center" VerticalAlignment="Center" Width="438" Canvas.Left="139" Canvas.Top="46" Height="24"></TextBox>
 
                     <TextBlock Canvas.Left="12" Canvas.Top="82" VerticalAlignment="Center" HorizontalAlignment="Left">
                          <fa:IconImage Width="12" Foreground="Black" IconFont="Solid"  Icon="CircleDot"/>
                          <Run FontSize="18">Description</Run>
                     </TextBlock>
-                    <TextBox FontSize="15" TextWrapping="Wrap" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Visible"
-                             Name="descTextBox" HorizontalAlignment="Left" VerticalAlignment="Center" Width="438" Canvas.Left="139" Canvas.Top="82" Height="64"></TextBox>
+                    <TextBox FontSize="15" TextWrapping="Wrap" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Visible" Name="descTextBox" HorizontalAlignment="Left" VerticalAlignment="Center" Width="438" Canvas.Left="139" Canvas.Top="82" Height="64"></TextBox>
                 </Canvas>
             </Border>
 
@@ -85,56 +82,56 @@
                 <DockPanel>
                     <Canvas Height="50" DockPanel.Dock="Top">
                         <Button HorizontalAlignment="Left"
-                        Click="addButton_Click"
-                        Height="20"
-                        BorderThickness="0"
-                        Background="Transparent"
-                        Canvas.Left="252" Canvas.Top="12" VerticalAlignment="Center">
+                                Click="addButton_Click"
+                                Height="20"
+                                BorderThickness="0"
+                                Background="Transparent"
+                                Canvas.Left="252" Canvas.Top="12" 
+                                VerticalAlignment="Center">
                             <fa:IconImage Foreground="LawnGreen" Icon="Add"/>
                         </Button>
-
                         <Button HorizontalAlignment="Left"
-                        Click="editButton_Click"
-                        Height="20"
-                        BorderThickness="0"
-                        Background="Transparent"
-                        Canvas.Left="301" Canvas.Top="12" VerticalAlignment="Center">
+                                Click="editButton_Click"
+                                Height="20"
+                                BorderThickness="0"
+                                Background="Transparent"
+                                Canvas.Left="301" Canvas.Top="12"
+                                VerticalAlignment="Center">
                             <fa:IconImage Foreground="SkyBlue" Icon="Edit"/>
                         </Button>
-
                         <Button HorizontalAlignment="Left"
-                        Click="delButton_Click"
-                        Height="20"
-                        BorderThickness="0"
-                        Background="Transparent"
-                        Canvas.Left="344" Canvas.Top="12" VerticalAlignment="Center">
+                                Click="delButton_Click"
+                                Height="20"
+                                BorderThickness="0"
+                                Background="Transparent"
+                                Canvas.Left="344" Canvas.Top="12" VerticalAlignment="Center">
                             <fa:IconImage Foreground="OrangeRed" Icon="Cancel"/>
                         </Button>
 
                         <Button HorizontalAlignment="Center"
-                        Click="importButton_Click"
-                        Height="30"
-                        BorderThickness="0"
-                        Background="Transparent"
-                        Canvas.Left="587" Canvas.Top="8" VerticalAlignment="Top">
+                                Click="importButton_Click"
+                                Height="30"
+                                BorderThickness="0"
+                                Background="Transparent"
+                                Canvas.Left="587" Canvas.Top="8" VerticalAlignment="Top">
                             <fa:IconImage Foreground="DarkGreen" Icon="FileExcel"/>
                         </Button>
                         <TextBlock FontSize="14" Foreground="Gray" Canvas.Left="12" Canvas.Top="15" HorizontalAlignment="Center" VerticalAlignment="Top" Text="Categories of books"/>
                     </Canvas>
 
                     <ListView Width="600"
-                      Name="CategoriesListView" 
-                      ScrollViewer.HorizontalScrollBarVisibility="Disabled" 
-                      ScrollViewer.VerticalScrollBarVisibility="Visible" 
-                      Margin="0 0 0 13"
-                      BorderThickness="0">
+                              Name="CategoriesListView" 
+                              ScrollViewer.HorizontalScrollBarVisibility="Disabled" 
+                              ScrollViewer.VerticalScrollBarVisibility="Visible" 
+                              Margin="0 0 0 13"
+                              BorderThickness="0">
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <GroupBox BorderThickness="1">
                                     <GroupBox.Header>
                                         <TextBlock FontSize="20" VerticalAlignment="Center">
-                            <fa:IconImage Width="10" Icon="Circle" IconFont="Solid" Foreground="Pink" Margin="0 0 1 0"/>
-                            <Run Text="{Binding Name, NotifyOnSourceUpdated=True}"></Run>
+                                            <fa:IconImage Width="10" Icon="Circle" IconFont="Solid" Foreground="Pink" Margin="0 0 1 0"/>
+                                            <Run Text="{Binding Name, NotifyOnSourceUpdated=True}"></Run>
                                         </TextBlock>
                                     </GroupBox.Header>
                                     <TextBlock FontSize="15" TextWrapping="Wrap" Text="{Binding Description, NotifyOnSourceUpdated=True}" Width="560" Height="Auto" VerticalAlignment="Center" HorizontalAlignment="Center"/>

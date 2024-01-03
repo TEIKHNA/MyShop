@@ -9,9 +9,9 @@ namespace Entity
 {
     public class Promotion : INotifyPropertyChanged
     {
-        public int PromId { get; set; } 
+        public int PromId { get; set; }
         public string? Detail { get; set; }
-        public int? DiscountPercent {  get; set; }   
+        public int? DiscountPercent { get; set; }
 
         public event PropertyChangedEventHandler? PropertyChanged;
     }

@@ -7,8 +7,8 @@ namespace _Bus03_SimpleProducts
     public class SimpleProductsBus : ProductsIBus
     {
         public SimpleProductsBus()
-        { 
-        
+        {
+
         }
 
         public SimpleProductsBus(ProductsIDao dao)
@@ -25,7 +25,6 @@ namespace _Bus03_SimpleProducts
         {
             return _dao.add(prod);
         }
-
 
         public override int del(int id)
         {
@@ -60,7 +59,7 @@ namespace _Bus03_SimpleProducts
         public override string? getCategoryName(int? catId, BindingList<Category> categories)
         {
             if (catId == null) return null;
-            for (int i = 0; i < categories.Count;i++)
+            for (int i = 0; i < categories.Count; i++)
             {
                 if (catId == categories[i].CatId)
                 {
@@ -77,7 +76,7 @@ namespace _Bus03_SimpleProducts
             {
                 if (promId == promotions[i].PromId)
                 {
-                    return (int)promotions[i].DiscountPercent;
+                    return (int)promotions[i].DiscountPercent!;
                 }
             }
             return null;

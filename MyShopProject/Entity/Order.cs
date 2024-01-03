@@ -11,8 +11,8 @@ namespace Entity
     {
         public int OrdId { get; set; }
         public int? CusId { get; set; }
-        public int? FinalPrice {  get; set; }
-        public int? FinalProfit {  get; set; }   
+        public int? FinalPrice { get; set; }
+        public int? FinalProfit { get; set; }
         public DateTime? CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
         public string? CusName { get; set; } = null;

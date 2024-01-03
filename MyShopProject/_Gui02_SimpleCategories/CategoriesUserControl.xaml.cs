@@ -22,8 +22,8 @@ namespace _Gui02_SimpleCategories
     public partial class CategoriesUserControl : UserControl
     {
         CategoriesIBus _bus;
-
         Category? _editItem = null;
+        BindingList<Category> _categories = new BindingList<Category>();
 
         public CategoriesUserControl(CategoriesIBus bus)
         {
@@ -31,25 +31,32 @@ namespace _Gui02_SimpleCategories
             InitializeComponent();
         }
 
-        BindingList<Category> _categories = new BindingList<Category>();
-
-
         private void window_Loaded(object sender, RoutedEventArgs e)
         {
             _categories = _bus.getAll();
             CategoriesListView.ItemsSource = _categories;
         }
 
+        private void showInput()
+        {
+            categoryInputPanel.Visibility = Visibility.Visible;
+        }
+
+        private void hideInput()
+        {
+            categoryInputPanel.Visibility = Visibility.Collapsed;
+
+        }
+
         private void editButton_Click(object sender, RoutedEventArgs e)
         {
             if (CategoriesListView.SelectedItem != null)
             {
-                categoryInputPanel.Visibility = Visibility.Visible;
+                showInput();
                 _editItem = _categories[CategoriesListView.SelectedIndex];
                 nameTextBox.Text = _editItem.Name;
                 descTextBox.Text = _editItem.Description;
             }
-
         }
 
         private void delButton_Click(object sender, RoutedEventArgs e)
@@ -64,7 +71,7 @@ namespace _Gui02_SimpleCategories
                         nameTextBox.Text = "";
                         descTextBox.Text = "";
                         _editItem = null;
-                        categoryInputPanel.Visibility = Visibility.Collapsed;
+                        hideInput();
                     }
                     _categories.Remove(delItem);
                 }
@@ -73,13 +80,10 @@ namespace _Gui02_SimpleCategories
 
         private void saveButton_Click(object sender, RoutedEventArgs e)
         {
-            if (nameTextBox.Text == "" || descTextBox.Text == "")
-            {
-                return;
-            }
+            if (nameTextBox.Text == "" || descTextBox.Text == "") return;
             if (_editItem == null)
             {
-                int id =_bus.add(nameTextBox.Text, descTextBox.Text);
+                int id = _bus.add(nameTextBox.Text, descTextBox.Text);
                 if (id > 0)
                 {
                     _categories.Add(new Category()
@@ -87,28 +91,27 @@ namespace _Gui02_SimpleCategories
                         CatId = id,
                         Name = nameTextBox.Text,
                         Description = descTextBox.Text,
-                    }); 
+                    });
                 }
-            } 
+            }
             else
             {
-                if(_bus.edit(_editItem.CatId, nameTextBox.Text, descTextBox.Text) > 0)
+                if (_bus.edit(_editItem.CatId, nameTextBox.Text, descTextBox.Text) > 0)
                 {
                     _editItem.Name = nameTextBox.Text;
                     _editItem.Description = descTextBox.Text;
                 }
             }
-
             nameTextBox.Text = "";
             descTextBox.Text = "";
-            categoryInputPanel.Visibility = Visibility.Collapsed;
+            hideInput();
         }
 
         private void cancelButton_Click(object sender, RoutedEventArgs e)
         {
             nameTextBox.Text = "";
             descTextBox.Text = "";
-            categoryInputPanel.Visibility = Visibility.Collapsed;
+            hideInput();
         }
 
         private void addButton_Click(object sender, RoutedEventArgs e)
@@ -119,7 +122,7 @@ namespace _Gui02_SimpleCategories
                 descTextBox.Text = "";
                 _editItem = null;
             }
-            categoryInputPanel.Visibility = Visibility.Visible;
+            showInput();
         }
 
         private void importButton_Click(object sender, RoutedEventArgs e)
@@ -127,11 +130,14 @@ namespace _Gui02_SimpleCategories
             var importList = _bus.import("import");
             foreach (var item in importList)
             {
-                int id = _bus.add(item.Name, item.Description);
-                if (id > 0)
+                if (item != null)
                 {
-                    item.CatId = id;
-                    _categories.Add(item);
+                    int id = _bus.add(item.Name!, item.Description!);
+                    if (id > 0)
+                    {
+                        item.CatId = id;
+                        _categories.Add(item);
+                    }
                 }
             }
         }

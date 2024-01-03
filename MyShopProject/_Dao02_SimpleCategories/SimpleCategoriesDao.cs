@@ -13,11 +13,14 @@ namespace _Dao02_SimpleCategories
     public class SimpleCategoriesDao : CategoriesIDao
     {
         public SimpleCategoriesDao() { }
+
         public override int add(string name, string desc)
         {
-            string sql = @"INSERT INTO Categories(Name, Description)
-                    VALUES(@name, @desc);
-                    SELECT IDENT_CURRENT('Categories');";
+            string sql = @"
+                INSERT INTO Categories(Name, Description)
+                VALUES(@name, @desc);
+                SELECT IDENT_CURRENT('Categories');
+            ";
             var command = new SqlCommand(sql, DBInstance.Instance.Connection);
             command.Parameters.Add("@name", System.Data.SqlDbType.NVarChar).Value = name;
             command.Parameters.Add("@desc", System.Data.SqlDbType.NVarChar).Value = desc;
@@ -36,9 +39,11 @@ namespace _Dao02_SimpleCategories
 
         public override int edit(int id, string newName, string newDesc)
         {
-            string sql = @"Update Categories 
-                    Set Name = @name, Description = @desc
-                    Where CatId = @id;";
+            string sql = @"
+                Update Categories 
+                Set Name = @name, Description = @desc
+                Where CatId = @id;
+            ";
             var command = new SqlCommand(sql, DBInstance.Instance.Connection);
             command.Parameters.Add("@name", System.Data.SqlDbType.NVarChar).Value = newName;
             command.Parameters.Add("@desc", System.Data.SqlDbType.NVarChar).Value = newDesc;
@@ -56,7 +61,6 @@ namespace _Dao02_SimpleCategories
             {
                 while (reader.Read())
                 {
-
                     var cate = new Category()
                     {
                         CatId = (int)reader["CatId"],
@@ -72,7 +76,6 @@ namespace _Dao02_SimpleCategories
         public override BindingList<Category> import(string config)
         {
             var rs = new BindingList<Category>();
-
             string filename = "Assets/Imports/" + config + ".xlsx";
             var document = SpreadsheetDocument.Open(filename, false);
             var wbPart = document.WorkbookPart!;
@@ -83,7 +86,6 @@ namespace _Dao02_SimpleCategories
                     .GetPartsOfType<SharedStringTablePart>()
                     .FirstOrDefault()!;
             var cells = wsPart.Worksheet.Descendants<Cell>();
-
             int row = 2;
             Cell nameCell;
             do
@@ -101,7 +103,6 @@ namespace _Dao02_SimpleCategories
                     string desc = stringTable.SharedStringTable
                             .ElementAt(int.Parse(stringId))
                             .InnerText;
-
                     rs.Add(new Category
                     {
                         Name = name,
@@ -110,7 +111,6 @@ namespace _Dao02_SimpleCategories
                 }
                 row++;
             } while (nameCell?.InnerText.Length > 0);
-
             return rs;
         }
     }
