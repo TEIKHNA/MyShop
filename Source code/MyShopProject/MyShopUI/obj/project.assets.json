@@ -3039,11 +3039,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\MyShopUI\\MyShopUI.csproj",
+      "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\MyShopUI\\MyShopUI.csproj",
       "projectName": "MyShopUI",
-      "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\MyShopUI\\MyShopUI.csproj",
+      "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\MyShopUI\\MyShopUI.csproj",
       "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-      "outputPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\MyShopUI\\obj\\",
+      "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\MyShopUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3065,98 +3065,98 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "projectReferences": {
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Contract02_Categories\\Contract02_Categories.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Contract03_Products\\Contract03_Products.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Contract04_Orders\\Contract04_Orders.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Contract05_Report\\Contract05_Report.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Contract05_Report\\Contract05_Report.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Contract05_Report\\Contract05_Report.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Contract05_Report\\Contract05_Report.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Contract06_Promotions\\Contract06_Promotions.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Contract06_Promotions\\Contract06_Promotions.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Contract06_Promotions\\Contract06_Promotions.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Contract06_Promotions\\Contract06_Promotions.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Contract07_Customers\\Contract07_Customers.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Contract07_Customers\\Contract07_Customers.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Contract07_Customers\\Contract07_Customers.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Contract07_Customers\\Contract07_Customers.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\DB\\DB.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\DB\\DB.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\DB\\DB.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\DB\\DB.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Entity\\Entity.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Entity\\Entity.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Entity\\Entity.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Entity\\Entity.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Utility\\Utility.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Utility\\Utility.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Utility\\Utility.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Utility\\Utility.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Bus02_SimpleCategories\\_Bus02_SimpleCategories.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Bus02_SimpleCategories\\_Bus02_SimpleCategories.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Bus02_SimpleCategories\\_Bus02_SimpleCategories.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Bus02_SimpleCategories\\_Bus02_SimpleCategories.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Bus03_SimpleProducts\\_Bus03_SimpleProducts.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Bus03_SimpleProducts\\_Bus03_SimpleProducts.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Bus03_SimpleProducts\\_Bus03_SimpleProducts.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Bus03_SimpleProducts\\_Bus03_SimpleProducts.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Bus04_SimpleOrders\\_Bus04_SimpleOrders.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Bus04_SimpleOrders\\_Bus04_SimpleOrders.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Bus04_SimpleOrders\\_Bus04_SimpleOrders.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Bus04_SimpleOrders\\_Bus04_SimpleOrders.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Bus05_SimpleReport\\_Bus05_SimpleReport.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Bus05_SimpleReport\\_Bus05_SimpleReport.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Bus05_SimpleReport\\_Bus05_SimpleReport.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Bus05_SimpleReport\\_Bus05_SimpleReport.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Bus06_SimplePromotions\\_Bus06_SimplePromotions.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Bus06_SimplePromotions\\_Bus06_SimplePromotions.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Bus06_SimplePromotions\\_Bus06_SimplePromotions.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Bus06_SimplePromotions\\_Bus06_SimplePromotions.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Bus07_SimpleCustomers\\_Bus07_SimpleCustomers.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Bus07_SimpleCustomers\\_Bus07_SimpleCustomers.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Bus07_SimpleCustomers\\_Bus07_SimpleCustomers.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Bus07_SimpleCustomers\\_Bus07_SimpleCustomers.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Dao01_SimpleDashboard\\_Dao01_SimpleDashboard.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Dao01_SimpleDashboard\\_Dao01_SimpleDashboard.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Dao01_SimpleDashboard\\_Dao01_SimpleDashboard.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Dao01_SimpleDashboard\\_Dao01_SimpleDashboard.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Dao02_SimpleCategories\\_Dao02_SimpleCategories.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Dao02_SimpleCategories\\_Dao02_SimpleCategories.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Dao02_SimpleCategories\\_Dao02_SimpleCategories.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Dao02_SimpleCategories\\_Dao02_SimpleCategories.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Dao03_SimpleProducts\\_Dao03_SimpleProducts.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Dao03_SimpleProducts\\_Dao03_SimpleProducts.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Dao03_SimpleProducts\\_Dao03_SimpleProducts.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Dao03_SimpleProducts\\_Dao03_SimpleProducts.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Dao04_SimpleOrders\\_Dao04_SimpleOrders.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Dao04_SimpleOrders\\_Dao04_SimpleOrders.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Dao04_SimpleOrders\\_Dao04_SimpleOrders.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Dao04_SimpleOrders\\_Dao04_SimpleOrders.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Dao05_SimpleReport\\_Dao05_SimpleReport.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Dao05_SimpleReport\\_Dao05_SimpleReport.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Dao05_SimpleReport\\_Dao05_SimpleReport.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Dao05_SimpleReport\\_Dao05_SimpleReport.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Dao06_SimplePromotions\\_Dao06_SimplePromotions.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Dao06_SimplePromotions\\_Dao06_SimplePromotions.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Dao06_SimplePromotions\\_Dao06_SimplePromotions.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Dao06_SimplePromotions\\_Dao06_SimplePromotions.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Dao07_SimpleCustomers\\_Dao07_SimpleCustomers.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Dao07_SimpleCustomers\\_Dao07_SimpleCustomers.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Dao07_SimpleCustomers\\_Dao07_SimpleCustomers.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Dao07_SimpleCustomers\\_Dao07_SimpleCustomers.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Gui01_SimpleDashboard\\_Gui01_SimpleDashboard.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Gui01_SimpleDashboard\\_Gui01_SimpleDashboard.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Gui01_SimpleDashboard\\_Gui01_SimpleDashboard.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Gui01_SimpleDashboard\\_Gui01_SimpleDashboard.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Gui02_SimpleCategories\\_Gui02_SimpleCategories.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Gui02_SimpleCategories\\_Gui02_SimpleCategories.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Gui02_SimpleCategories\\_Gui02_SimpleCategories.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Gui02_SimpleCategories\\_Gui02_SimpleCategories.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Gui03_SimpleProducts\\_Gui03_SimpleProducts.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Gui03_SimpleProducts\\_Gui03_SimpleProducts.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Gui03_SimpleProducts\\_Gui03_SimpleProducts.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Gui03_SimpleProducts\\_Gui03_SimpleProducts.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Gui04_SimpleOrders\\_Gui04_SimpleOrders.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Gui04_SimpleOrders\\_Gui04_SimpleOrders.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Gui04_SimpleOrders\\_Gui04_SimpleOrders.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Gui04_SimpleOrders\\_Gui04_SimpleOrders.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Gui05_SimpleReport\\_Gui05_SimpleReport.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Gui05_SimpleReport\\_Gui05_SimpleReport.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Gui05_SimpleReport\\_Gui05_SimpleReport.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Gui05_SimpleReport\\_Gui05_SimpleReport.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Gui06_SimplePromotions\\_Gui06_SimplePromotions.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Gui06_SimplePromotions\\_Gui06_SimplePromotions.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Gui06_SimplePromotions\\_Gui06_SimplePromotions.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Gui06_SimplePromotions\\_Gui06_SimplePromotions.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Gui07_SimpleCustomers\\_Gui07_SimpleCustomers.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Gui07_SimpleCustomers\\_Gui07_SimpleCustomers.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Gui07_SimpleCustomers\\_Gui07_SimpleCustomers.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Gui07_SimpleCustomers\\_Gui07_SimpleCustomers.csproj"
             }
           }
         }

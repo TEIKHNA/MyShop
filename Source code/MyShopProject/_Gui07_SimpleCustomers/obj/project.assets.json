@@ -2202,11 +2202,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Gui07_SimpleCustomers\\_Gui07_SimpleCustomers.csproj",
+      "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Gui07_SimpleCustomers\\_Gui07_SimpleCustomers.csproj",
       "projectName": "_Gui07_SimpleCustomers",
-      "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Gui07_SimpleCustomers\\_Gui07_SimpleCustomers.csproj",
+      "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Gui07_SimpleCustomers\\_Gui07_SimpleCustomers.csproj",
       "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-      "outputPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Gui07_SimpleCustomers\\obj\\",
+      "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Gui07_SimpleCustomers\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2228,17 +2228,17 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "projectReferences": {
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Contract07_Customers\\Contract07_Customers.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Contract07_Customers\\Contract07_Customers.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Contract07_Customers\\Contract07_Customers.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Contract07_Customers\\Contract07_Customers.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\DB\\DB.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\DB\\DB.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\DB\\DB.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\DB\\DB.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Entity\\Entity.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Entity\\Entity.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Entity\\Entity.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Entity\\Entity.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Utility\\Utility.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Utility\\Utility.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Utility\\Utility.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Utility\\Utility.csproj"
             }
           }
         }

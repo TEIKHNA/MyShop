@@ -2132,11 +2132,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj",
+      "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj",
       "projectName": "_Bus01_SimpleDashboard",
-      "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj",
+      "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Bus01_SimpleDashboard\\_Bus01_SimpleDashboard.csproj",
       "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-      "outputPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\_Bus01_SimpleDashboard\\obj\\",
+      "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\_Bus01_SimpleDashboard\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2158,11 +2158,11 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "projectReferences": {
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Contract01_Dashboard\\Contract01_Dashboard.csproj"
             },
-            "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Entity\\Entity.csproj": {
-              "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Entity\\Entity.csproj"
+            "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Entity\\Entity.csproj": {
+              "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Entity\\Entity.csproj"
             }
           }
         }

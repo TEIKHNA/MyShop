@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Utility\\Utility.csproj": {}
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Utility\\Utility.csproj": {}
   },
   "projects": {
-    "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Utility\\Utility.csproj": {
+    "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Utility\\Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Utility\\Utility.csproj",
+        "projectUniqueName": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Utility\\Utility.csproj",
         "projectName": "Utility",
-        "projectPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Utility\\Utility.csproj",
+        "projectPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Utility\\Utility.csproj",
         "packagesPath": "C:\\Users\\MYLAP.VN\\.nuget\\packages\\",
-        "outputPath": "D:\\DEADLINES\\LTW\\BÀI NỘP\\Source code\\MyShopProject\\Utility\\obj\\",
+        "outputPath": "D:\\DEADLINES\\LTW\\MYSHOP\\Project\\Source Code\\MyShopProject\\Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
