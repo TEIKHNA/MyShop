@@ -45,7 +45,9 @@ V. Điểm tự đánh giá cho từng thành viên:
     + 21120105 - Trương Thành Nhân - 9.25 điểm
     + 21120144 - Phạm Phúc Thuần - 9.25 điểm
 
-VI. Một số lưu ý và hướng dẫn của nhóm:
+VI. Link video: https://www.youtube.com/watch?v=YgaNxuHWEZs
+
+VII. Một số lưu ý và hướng dẫn của nhóm:
 1) Nên chạy chế độ Run As Administrator
 2) Chủ đề: Sách
 3) Cơ sở dữ liệu sử dụng: SQL Server 
