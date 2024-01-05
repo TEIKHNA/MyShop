@@ -1,0 +1,84 @@
+﻿<Window x:Class="_Gui03_SimpleProducts.ProductWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
+        xmlns:util="clr-namespace:Utility;assembly=Utility"
+        mc:Ignorable="d"
+        Title="Product" 
+        Height="441"
+        Width="788"
+        Foreground="White"
+        FontSize="18"
+        FontWeight="DemiBold"
+        WindowStartupLocation="Manual"
+        ResizeMode="NoResize"
+        FontFamily="Cambria"
+        Loaded="window_Loaded">
+    <Window.Background>
+        <LinearGradientBrush StartPoint="0.4,0" EndPoint="0.5,1">
+            <GradientStop Color="#213FFD" Offset="0"/>
+            <GradientStop Color="#219FFD" Offset="0.4"/>
+            <GradientStop Color="#21AFFD" Offset="0.7"/>
+            <GradientStop Color="#215FFD" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+
+    <Window.Resources>
+        <util:NumToDiscount x:Key="discountConverter"/>
+    </Window.Resources>
+    
+    <Canvas Margin="0,0,0,2">
+        <fa:IconImage Icon="Book" Foreground="White" Canvas.Left="352" Canvas.Top="10" HorizontalAlignment="Center" VerticalAlignment="Center" Height="73" Width="72"/>
+
+        <Button Name="okButton" Width="112" Height="36" Content="Save" Click="okButton_Click" Cursor="Hand" Background="Transparent" BorderBrush="White" BorderThickness="2" Foreground="White" Canvas.Left="641" Canvas.Top="348" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Button Name="cancelButton" Width="112" IsCancel="True" Height="35"  Content="Cancel" Cursor="Hand" Background="Transparent" BorderBrush="White" BorderThickness="2" Foreground="White" Canvas.Left="495" Canvas.Top="349" HorizontalAlignment="Left" VerticalAlignment="Center" RenderTransformOrigin="0.922,5.773"/>
+
+        <TextBlock Text="Category" HorizontalAlignment="Center" Canvas.Left="36" Canvas.Top="112" VerticalAlignment="Top"/>
+        <ComboBox x:Name="categoryComboBox" Width="263" VerticalContentAlignment="Center" BorderThickness="0" HorizontalAlignment="Center" Canvas.Left="118" Canvas.Top="111" VerticalAlignment="Top" Height="25">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock FontSize="13"><Run Text="{Binding Name, Mode=OneTime}"/></TextBlock>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+
+        <TextBlock Text="Title"  HorizontalAlignment="Center" Canvas.Left="70" Canvas.Top="153" VerticalAlignment="Top"/>
+        <TextBox x:Name="titleTextBox" FontSize="13" VerticalContentAlignment="Center" Text="{Binding Title}" Width="263" Height="25" HorizontalAlignment="Center" Canvas.Left="118" Canvas.Top="151" VerticalAlignment="Top"/>
+
+        <TextBlock Text="Author" HorizontalAlignment="Center" Canvas.Left="51" Canvas.Top="195" VerticalAlignment="Top"/>
+        <TextBox x:Name="authorTextBox" FontSize="13" VerticalContentAlignment="Center" Text="{Binding Author}" Height="25" Width="263" HorizontalAlignment="Center" Canvas.Left="118" Canvas.Top="193" VerticalAlignment="Top"/>
+
+        <TextBlock Text="Description" HorizontalAlignment="Center" Canvas.Left="12" Canvas.Top="236" VerticalAlignment="Top"/>
+        <TextBox x:Name="descriptionTextBox" FontSize="13" TextWrapping="Wrap" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Visible" Text="{Binding Description}" Width="263" Height="71" HorizontalAlignment="Center" Canvas.Left="118" Canvas.Top="236" VerticalAlignment="Top"/>
+
+        <TextBlock Text="Publised Year" HorizontalAlignment="Left" Canvas.Left="427" Canvas.Top="112" VerticalAlignment="Top" />
+        <TextBox x:Name="pubYearTextBox" FontSize="13" VerticalContentAlignment="Center" Text="{Binding PublishedYear}"  Height="25" Width="198" PreviewTextInput="NumberValidationTextBox" HorizontalAlignment="Center" Canvas.Left="555" Canvas.Top="110" VerticalAlignment="Top"/>
+
+        <TextBlock Text="Original Price" HorizontalAlignment="Center" Canvas.Left="427" Canvas.Top="149" VerticalAlignment="Top"/>
+        <TextBox x:Name="originalPrice" FontSize="13" VerticalContentAlignment="Center" Text="{Binding OriginalPrice}" Height="25" Width="198" PreviewTextInput="NumberValidationTextBox" HorizontalAlignment="Center" Canvas.Left="555" Canvas.Top="147" VerticalAlignment="Top"/>
+
+        <TextBlock Text="Selling Price" HorizontalAlignment="Center" Canvas.Left="439" Canvas.Top="189" VerticalAlignment="Top"/>
+        <TextBox x:Name="sellingPrice" Text="{Binding SellingPrice}" FontSize="13" VerticalContentAlignment="Center" Height="25" Width="198" PreviewTextInput="NumberValidationTextBox" HorizontalAlignment="Center" Canvas.Left="555" Canvas.Top="187" VerticalAlignment="Top"/>
+
+        <CheckBox Name="checkPromotion"  Canvas.Left="118" Unchecked="uncheck_Click" Checked="check_Click" Canvas.Top="326" Foreground="White" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Top" >Add Promotion</CheckBox>
+        <TextBlock Name="promotionTextBlock" Visibility="Collapsed" Text="Promotion" HorizontalAlignment="Center" Canvas.Left="20" Canvas.Top="354" VerticalAlignment="Top"/>
+        <ComboBox x:Name="promotionpComboBox" Visibility="Collapsed" Width="263" VerticalContentAlignment="Center" BorderThickness="0" HorizontalAlignment="Center" Canvas.Left="118" Canvas.Top="350" VerticalAlignment="Top" Height="30">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock FontSize="13">
+                        <Run Text="{Binding Detail, Mode=OneTime}"/>
+                        (<Run Text="{Binding DiscountPercent, Converter={StaticResource discountConverter}}"/>)
+                    </TextBlock>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+
+        <TextBlock Text="Quantity" HorizontalAlignment="Center" Canvas.Left="469" Canvas.Top="230" VerticalAlignment="Top"/>
+        <TextBox x:Name="quantityTextBox" Text="{Binding Quantity}" FontSize="13" VerticalContentAlignment="Center" Height="25" Width="198" PreviewTextInput="NumberValidationTextBox" HorizontalAlignment="Center" Canvas.Left="555" Canvas.Top="228" VerticalAlignment="Top"/>
+
+        <TextBlock Text="Image Path" HorizontalAlignment="Center" Canvas.Left="449" Canvas.Top="271" VerticalAlignment="Top"/>
+        <TextBox x:Name="imagePath" Text="{Binding ImagePath}" FontSize="13" VerticalContentAlignment="Center" Height="26" Width="198" HorizontalAlignment="Center" Canvas.Left="555" Canvas.Top="269" VerticalAlignment="Top"/>
+    </Canvas>
+</Window>

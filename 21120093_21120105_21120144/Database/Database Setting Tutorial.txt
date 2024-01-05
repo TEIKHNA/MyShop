@@ -1,0 +1,16 @@
+* Setting server:
+1. Enable TCP/IPv6
+2. Enable TCP/IP Protocol for yourserver
+3. Run your script
+4. In Server Properties -> Security: 
+	Server authentication -> Choose SQL Server and Window authentication mode
+5. In Server -> Security Folder -> Logins -> sa:
+	Properties -> Status -> Change login to Enable
+
+* Login:
+1. Choose settings first to setting your server:
+	a. Server: Name of server
+	b. Database: MyShop
+	c. Username: sa
+	d. Password: Leave blank if no password/sa password
+2. Save -> Login: username : admin / password: 1

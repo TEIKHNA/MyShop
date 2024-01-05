@@ -1,0 +1,408 @@
+﻿<UserControl x:Class="_Gui04_SimpleOrders.OrdersUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
+             xmlns:local="clr-namespace:_Gui04_SimpleOrders"
+             xmlns:util="clr-namespace:Utility;assembly=Utility"
+             mc:Ignorable="d" 
+             d:DesignHeight="680" 
+             d:DesignWidth="680" 
+             Background="#F5F7F8"
+             Loaded="window_Loaded"
+             FontFamily="Cambria"
+             Unloaded="window_Unloaded">
+    <UserControl.Resources>
+        <util:RelativeToAbsoluteConverter x:Key="absoluteConverter"/>
+        <util:PriceToCurrencyConverter x:Key="currencyConverter"/>
+        <util:NumToDiscount x:Key="discountConverter"/>
+        <util:ToCustomerName x:Key="customerConverter"/>
+        <util:ToDateFormat x:Key="dateConverter"/>
+        <util:NumToTelephoneNumber x:Key="telConverter"/>
+    </UserControl.Resources>
+
+    <UserControl.Template>
+        <ControlTemplate TargetType="UserControl">
+            <Border Background="{TemplateBinding Background}" CornerRadius="45">
+                <ContentPresenter />
+            </Border>
+        </ControlTemplate>
+    </UserControl.Template>
+
+    <Canvas>
+        <TextBlock FontSize="25" FontWeight="Bold" Canvas.Left="26" Canvas.Top="33" HorizontalAlignment="Center" VerticalAlignment="Top">Orders</TextBlock>
+
+        <Canvas Name="ordersCanvas" Visibility="Visible" Height="600" Width="680" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Top="80">
+            <Border DockPanel.Dock="Top"
+                    CornerRadius="10" Background="White" 
+                    Height="37" Width="640" BorderBrush="Gray"
+                    Canvas.Left="20" Canvas.Top="10" 
+                    HorizontalAlignment="Center" VerticalAlignment="Top" >
+                <Border.Effect>
+                    <DropShadowEffect ShadowDepth="3"  BlurRadius="10" Opacity="0.6"/>
+                </Border.Effect>
+                <Canvas>
+                    <TextBlock FontSize="14" Text="From " Canvas.Left="20" Canvas.Top="10" HorizontalAlignment="Left" VerticalAlignment="Top"></TextBlock>
+                    <DatePicker Name="startDatePicker" DisplayDate="2023-01-01" Canvas.Left="62" Canvas.Top="6" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                    <TextBlock FontSize="14" Text="to " Canvas.Left="175" Canvas.Top="10" HorizontalAlignment="Center" VerticalAlignment="Top"></TextBlock>
+                    <DatePicker Name="endDatePicker" DisplayDate="2023-01-01" Canvas.Left="204" Canvas.Top="6" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <Button HorizontalAlignment="Left"
+                            Click="applyDateButton_Click"
+                            Height="26"
+                            BorderThickness="0"
+                            Background="Transparent"
+                            Canvas.Left="328" Canvas.Top="4" VerticalAlignment="Center">
+                        <fa:IconImage Foreground="Green" Icon="Check" Canvas.Left="543" Canvas.Top="404" RenderTransformOrigin="0.934,0.536"></fa:IconImage>
+                    </Button>
+                    <Button HorizontalAlignment="Left"
+                            Click="cancelDateButton_Click"
+                            Height="26"
+                            BorderThickness="0"
+                            Background="Transparent"
+                            Canvas.Left="381" Canvas.Top="4" VerticalAlignment="Center">
+                        <fa:IconImage Foreground="DarkSlateGray" Icon="RotateBackward" Canvas.Left="543" Canvas.Top="404" RenderTransformOrigin="0.934,0.536"></fa:IconImage>
+                    </Button>
+                    <Button HorizontalAlignment="Left"
+                            Click="addOrderButton_Click"
+                            Height="26"
+                            BorderThickness="0"
+                            Background="Transparent"
+                            Canvas.Left="562" Canvas.Top="4" VerticalAlignment="Center">
+                        <fa:IconImage Foreground="Green" Icon="Add" Canvas.Left="543" Canvas.Top="404" RenderTransformOrigin="0.934,0.536"></fa:IconImage>
+                    </Button>
+                    <Button Click="viewOrderButton_Click"
+                            Height="26"
+                            BorderThickness="0"
+                            Background="Transparent"
+                            Canvas.Left="598" Canvas.Top="4" HorizontalAlignment="Left" VerticalAlignment="Center">
+                        <fa:IconImage Foreground="DodgerBlue" Icon="Eye" Canvas.Left="543" Canvas.Top="404" RenderTransformOrigin="0.934,0.536"/>
+                    </Button>
+                </Canvas>
+            </Border>
+            <Border CornerRadius="20" Background="White" 
+                    Height="444" Width="640"
+                    Canvas.Left="20" HorizontalAlignment="Center" 
+                    VerticalAlignment="Top" Canvas.Top="72" >
+                <Border.Effect>
+                    <DropShadowEffect ShadowDepth="3"  BlurRadius="10" Opacity="0.6"/>
+                </Border.Effect>
+                <Canvas>
+                    <TextBlock FontSize="12" Foreground="Gray" Canvas.Left="9" Canvas.Top="10" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Orders" Width="44"/>
+                    <Grid Height="16" Width="620" Canvas.Left="10" Canvas.Top="42" HorizontalAlignment="Center" VerticalAlignment="Top">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50"/>
+                            <ColumnDefinition Width="210"/>
+                            <ColumnDefinition Width="210"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock FontSize="14" Text="ID" FontWeight="Bold" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Column="0"/>
+                        <TextBlock FontSize="14" Text="Customer" FontWeight="Bold" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Column="1"/>
+                        <TextBlock FontSize="14" Text="Created Date" FontWeight="Bold" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Column="2"/>
+                        <TextBlock FontSize="14" Text="Price" FontWeight="Bold" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Column="3"/>
+                    </Grid>
+                    <ListView Width="620" Height="357" 
+                              Name="OrdersListView" 
+                              BorderThickness="0"
+                              ScrollViewer.HorizontalScrollBarVisibility="Disabled" 
+                              Canvas.Top="69" 
+                              Background="Transparent"
+                              HorizontalAlignment="Center" 
+                              VerticalAlignment="Center" 
+                              Canvas.Left="10">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Margin="0 10 0 10" Width="620" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="50"/>
+                                        <ColumnDefinition Width="210"/>
+                                        <ColumnDefinition Width="210"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock FontSize="14" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0">
+                                        <Run Text="{Binding OrdId}"/>
+                                    </TextBlock>
+                                    <TextBlock FontSize="14" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1">
+                                        <Run Text="{Binding CusName, Converter={StaticResource customerConverter}}"/>
+                                    </TextBlock>
+                                    <TextBlock FontSize="14" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="2">
+                                        <Run Text="{Binding CreatedAt, Converter={StaticResource dateConverter}}"/>
+                                    </TextBlock>
+                                    <TextBlock FontSize="14" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="3">
+                                        <Run Text="{Binding FinalPrice, Converter={StaticResource currencyConverter}}"/>
+                                    </TextBlock>
+                                </Grid>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </Canvas>
+            </Border>
+            <TextBlock Name="itemsAmount" Visibility="Visible" FontSize="14" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Top" Width="156" Canvas.Top="549" Canvas.Left="20" Height="26"/>
+            <Button HorizontalAlignment="Center" Name="preButton" Visibility="Visible"
+                    Click="previousButton_Click"
+                    Height="30"
+                    BorderThickness="0"
+                    Background="Transparent"
+                    Canvas.Left="250" Canvas.Top="547" VerticalAlignment="Center">
+                <fa:IconImage Foreground="Indigo" Icon="ChevronCircleLeft" Canvas.Left="543" Canvas.Top="404" RenderTransformOrigin="0.934,0.536"></fa:IconImage>
+            </Button>
+
+            <ComboBox Name="pagingComboBox" Visibility="Visible"
+                      Width="76" Height="30" Canvas.Left="302" Canvas.Top="547" 
+                      SelectionChanged="pagingComboBox_SelectionChanged" HorizontalAlignment="Center" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock>
+                            <Run Text="{Binding Page, Mode=OneTime}"/>/<Run Text="{Binding Total, Mode=OneTime}"/>
+                        </TextBlock>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+            <Button HorizontalAlignment="Left" Name="nextButton" Visibility="Visible"
+                    Click="nextButton_Click"
+                    Height="30"
+                    BorderThickness="0"
+                    Background="Transparent"
+                    Canvas.Left="399" Canvas.Top="547" 
+                    VerticalAlignment="Center">
+                <fa:IconImage Foreground="Indigo" Icon="ChevronCircleRight" Canvas.Left="543" Canvas.Top="404" RenderTransformOrigin="0.934,0.536"></fa:IconImage>
+            </Button>
+        </Canvas>
+        <Canvas Name="orderInfoCanvas" Visibility="Collapsed" Height="618" Width="680" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Top="62">
+            <Button HorizontalAlignment="Left" Name="backButton" Visibility="Visible"
+                    Click="backButton_Click" 
+                    Height="34"
+                    BorderThickness="2"
+                    Background="Transparent"
+                    BorderBrush="MediumPurple"
+                    Canvas.Left="25" Canvas.Top="9" VerticalAlignment="Center" 
+                    Width="95">
+                <Button.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <fa:IconImage VerticalAlignment="Center"
+                          Foreground="MediumPurple" 
+                          Icon="LeftLong"
+                          Width="18"></fa:IconImage>
+                        <TextBlock FontSize="23" Foreground="MediumPurple" VerticalAlignment="Center" Margin="5 0 5 0">Back</TextBlock>
+                    </StackPanel>
+                </Button.Content>
+            </Button>
+            <Button HorizontalAlignment="Left" 
+                    Name="saveOrderButton" 
+                    Visibility="Visible"
+                    Click="saveOrderButton_Click" 
+                    Height="34"
+                    BorderThickness="2"
+                    Width="94"
+                    Background="Transparent"
+                    BorderBrush="Green"
+                    Canvas.Left="150" Canvas.Top="9" VerticalAlignment="Center">
+                <Button.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <fa:IconImage VerticalAlignment="Center" Foreground="Green" Icon="Save" Width="18"></fa:IconImage>
+                        <TextBlock FontSize="23" Foreground="Green" VerticalAlignment="Center" Margin="5 0 5 0">Save</TextBlock>
+                    </StackPanel>
+                </Button.Content>
+            </Button>
+            <Button HorizontalAlignment="Left" Name="delOrderButton" Visibility="Visible"
+                    Click="delOrderButton_Click" 
+                    Height="34"
+                    BorderThickness="2"
+                    Background="Transparent"
+                    Width="95"
+                    BorderBrush="Red"
+                    Canvas.Left="274" Canvas.Top="9" VerticalAlignment="Center">
+                <Button.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <fa:IconImage VerticalAlignment="Center" Foreground="Red" Icon="TrashAlt" Width="18"></fa:IconImage>
+                        <TextBlock FontSize="23" Foreground="Red" VerticalAlignment="Center" Margin="5 0 5 0">Delete</TextBlock>
+                    </StackPanel>
+                </Button.Content>
+            </Button>
+            <Border DockPanel.Dock="Top"
+                    CornerRadius="10" 
+                    Background="White" 
+                    Height="63" Width="344" 
+                    BorderBrush="Gray"
+                    Canvas.Left="25"
+                    Canvas.Top="57" 
+                    HorizontalAlignment="Left" 
+                    VerticalAlignment="Center" >
+                <Border.Effect>
+                    <DropShadowEffect ShadowDepth="1"  BlurRadius="10" Opacity="0.6"/>
+                </Border.Effect>
+                <Canvas>
+                    <CheckBox Name="unknownCustomerCheckBox"  Canvas.Left="9" Unchecked="uncheckCustomer_Click" Checked="checkCustomer_Click" Canvas.Top="8" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Center" Width="164">Unknown Customer</CheckBox>
+                    <TextBlock Text="Name: " FontSize="14" Canvas.Left="11" Canvas.Top="31" HorizontalAlignment="Left" VerticalAlignment="Center"></TextBlock>
+                    <ComboBox x:Name="availCustomerComboBox" SelectionChanged="changeCustomer_SelectionChanged" Visibility="Visible" Width="275" VerticalContentAlignment="Center" BorderThickness="0" HorizontalAlignment="Left" Canvas.Left="57" Canvas.Top="30" VerticalAlignment="Center" Height="23">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock FontSize="13" VerticalAlignment="Center">
+                                    <Run Text="{Binding Name, Mode=OneTime}"/>
+                                    (<Run Text="{Binding Tel, Converter={StaticResource telConverter}}"/>)
+                                </TextBlock>
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+                </Canvas>
+            </Border>
+            <Border DockPanel.Dock="Top"
+                    CornerRadius="10" 
+                    Background="White" 
+                    Height="173" Width="344" 
+                    BorderBrush="Gray"
+                    Canvas.Left="25" Canvas.Top="136"
+                    HorizontalAlignment="Left" 
+                    VerticalAlignment="Center" >
+                <Border.Effect>
+                    <DropShadowEffect ShadowDepth="1"  BlurRadius="10" Opacity="0.6"/>
+                </Border.Effect>
+                <Canvas Name="orderDetailInfoBorder" Visibility="Visible">
+                    <TextBlock FontSize="12" Foreground="Gray" Canvas.Left="9" Canvas.Top="10" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Order Detail" Width="69"/>
+                    <Image Name="bookInfoImage" RenderOptions.BitmapScalingMode="HighQuality" 
+                           Source="{Binding ImagePath, Converter={StaticResource absoluteConverter}}" 
+                           Width="80" Height="100" Stretch="Fill" 
+                           HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="10" Canvas.Top="40"/>
+                    <TextBlock x:Name="bookInfoTitle" HorizontalAlignment="Center" VerticalAlignment="Top" Width="217" TextWrapping="Wrap" d:Text="Test" FontWeight="Bold" FontSize="13" Canvas.Left="103" Canvas.Top="40" Height="71">
+                        <Run Text="{Binding ProName}"></Run>
+                    </TextBlock>
+                    <TextBlock Text="Quantity" FontSize="13" FontWeight="Bold" Canvas.Left="103" Canvas.Top="117" HorizontalAlignment="Center" VerticalAlignment="Top"></TextBlock>
+                    <TextBox Name="detailQuantityTextBox" d:Text="10" Canvas.Left="174" Canvas.Top="117" HorizontalAlignment="Center" PreviewTextInput="NumberValidationTextBox" HorizontalContentAlignment="Right" VerticalAlignment="Top" Width="49"></TextBox>
+                    <TextBlock FontSize="13" FontStyle="Italic" Canvas.Left="238" Canvas.Top="117" HorizontalAlignment="Center" VerticalAlignment="Top" Width="49">
+                        <Run Text="Limit "/>
+                        <Run Name="limitProduct"/>
+                    </TextBlock>
+                    <Button HorizontalAlignment="Left"
+                            Click="delOrderDetailButton_Click"
+                            Height="22"
+                            BorderThickness="0"
+                            Background="Transparent"
+                            Canvas.Left="310" Canvas.Top="6" VerticalAlignment="Top" Width="20">
+                        <fa:IconImage Foreground="Red" Icon="TrashAlt" Canvas.Left="543" Canvas.Top="404" RenderTransformOrigin="0.934,0.536"></fa:IconImage>
+                    </Button>
+                    <Button HorizontalAlignment="Center"
+                            Click="applyOrderDetailButton_Click"
+                            Height="22"
+                            BorderThickness="0"
+                            Background="Transparent"
+                            Canvas.Left="306" Canvas.Top="141" VerticalAlignment="Center" Width="28">
+                        <fa:IconImage Foreground="Green" Icon="Check" Canvas.Left="543" Canvas.Top="404" RenderTransformOrigin="0.934,0.536"></fa:IconImage>
+                    </Button>
+                </Canvas>
+            </Border>
+            <Border CornerRadius="20" Background="White" 
+                    Height="272" Width="637"
+                    Canvas.Left="25" 
+                    HorizontalAlignment="Center" 
+                    VerticalAlignment="Top" Canvas.Top="326" >
+                <Border.Effect>
+                    <DropShadowEffect ShadowDepth="1"  BlurRadius="10" Opacity="0.6"/>
+                </Border.Effect>
+                <Canvas>
+                    <TextBlock FontSize="12" Foreground="Gray" Canvas.Left="9" Canvas.Top="10" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Order Details List" Width="93"/>
+
+                    <Grid Height="16" Width="610" Canvas.Left="6" Canvas.Top="35" HorizontalAlignment="Left" VerticalAlignment="Center">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="380"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock FontSize="14" Text="Product Name" FontWeight="Bold" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Column="0"/>
+                        <TextBlock FontSize="14" Text="Quantity" FontWeight="Bold" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Column="1"/>
+                        <TextBlock FontSize="14" Text="Price Per Item" FontWeight="Bold" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Column="2"/>
+                    </Grid>
+                    <ListView Width="610" Height="176" 
+                              Name="OrderDetailsListView" 
+                              BorderThickness="0"
+                              ScrollViewer.HorizontalScrollBarVisibility="Disabled" 
+                              ScrollViewer.VerticalScrollBarVisibility="Visible"
+                              Canvas.Top="56" 
+                              Background="Transparent"
+                              HorizontalAlignment="Center" 
+                              VerticalAlignment="Center" 
+                              MouseDoubleClick="orderDetail_DoubleClick"
+                              Canvas.Left="10">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Margin="0 8 0 8" Width="610" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="380"/>
+                                        <ColumnDefinition Width="100"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock FontSize="14" TextWrapping="Wrap" TextAlignment="Center" Width="350" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0">
+                                        <Run Text="{Binding ProName}"/>
+                                    </TextBlock>
+                                    <TextBlock FontSize="14" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1">
+                                        <Run Text="{Binding Quantity}"/>
+                                    </TextBlock>
+                                    <TextBlock FontSize="14" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="2">
+                                        <Run Text="{Binding PricePerItem, Converter={StaticResource currencyConverter}}"/>
+                                    </TextBlock>
+                                </Grid>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                    <TextBlock Text="Total: " FontSize="18" FontStyle="Italic" Canvas.Left="459" Canvas.Top="241" HorizontalAlignment="Left" VerticalAlignment="Center"></TextBlock>
+                    <TextBlock Name="finalPriceTextBlock" FontStyle="Italic" Text="{Binding FinalPrice, Converter={StaticResource currencyConverter}}" 
+                               FontSize="18" Canvas.Left="511" Canvas.Top="241" HorizontalAlignment="Left" VerticalAlignment="Center" Width="114"></TextBlock>
+                </Canvas>
+            </Border>
+            <Border CornerRadius="20" Background="White" 
+                    Height="299" Width="275"
+                    Canvas.Left="387" HorizontalAlignment="Left" 
+                    VerticalAlignment="Center" Canvas.Top="10" >
+                <Border.Effect>
+                    <DropShadowEffect ShadowDepth="1"  BlurRadius="10" Opacity="0.6"/>
+                </Border.Effect>
+                <Canvas>
+                    <TextBlock FontSize="12" Foreground="Gray" Canvas.Left="9" Canvas.Top="10" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Products"/>
+                    <TextBox Name="keywordTextBox" Padding="10 0 0 0" Width="217" KeyDown="keywordTextBox_KeyDown" BorderBrush="LightGray" Height="25" Canvas.Left="10" Canvas.Top="32" HorizontalAlignment="Center" VerticalAlignment="Top" VerticalContentAlignment="Center">
+                        <TextBox.Resources>
+                            <Style TargetType="{x:Type Border}">
+                                <Setter Property="CornerRadius" Value="10"/>
+                            </Style>
+                        </TextBox.Resources>
+                    </TextBox>
+                    <Button HorizontalAlignment="Center"
+                            Click="addProductButton_Click"
+                            Height="24"
+                            BorderThickness="0"
+                            Background="Transparent"
+                            Canvas.Left="243" Canvas.Top="31" VerticalAlignment="Top" Width="20">
+                        <fa:IconImage Foreground="Green" Icon="Add" Canvas.Left="543" Canvas.Top="404" Width="18"></fa:IconImage>
+                    </Button>
+
+                    <ListView Width="255" Height="220" 
+                            Name="ProductsListView" 
+                            ScrollViewer.HorizontalScrollBarVisibility="Disabled" 
+                            ScrollViewer.VerticalScrollBarVisibility="Visible" 
+                            Canvas.Top="69"  
+                            HorizontalAlignment="Center" 
+                            VerticalAlignment="Top"
+                            BorderThickness="0" Canvas.Left="10">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="0 5 0 5" Orientation="Horizontal">
+                                    <Image Name="bookInfoImage" RenderOptions.BitmapScalingMode="HighQuality" 
+                                           Source="{Binding ImagePath, Converter={StaticResource absoluteConverter}}" 
+                                           Width="80" Height="100" Stretch="Fill" 
+                                           HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                                    <StackPanel Margin="10 0 0 0" Orientation="Vertical">
+                                        <TextBlock FontSize="15" FontWeight="Bold" TextWrapping="Wrap" Width="140">
+                                            <Run Text="{Binding Title}"></Run>
+                                        </TextBlock>
+                                        <TextBlock FontSize="13" FontStyle="Italic" TextWrapping="Wrap" Width="140">
+                                            <Run Foreground="Gray" Text="by "></Run>
+                                            <Run Text="{Binding Author}"></Run>
+                                        </TextBlock>
+                                    </StackPanel>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </Canvas>
+            </Border>
+        </Canvas>
+    </Canvas>
+</UserControl>
