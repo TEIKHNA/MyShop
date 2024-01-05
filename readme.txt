@@ -46,11 +46,12 @@ V. Điểm tự đánh giá cho từng thành viên:
     + 21120144 - Phạm Phúc Thuần - 9.25 điểm
 
 VI. Một số lưu ý và hướng dẫn của nhóm:
-1) Chủ đề: Sách
-2) Cơ sở dữ liệu sử dụng: SQL Server 
+1) Nên chạy chế độ Run As Administrator
+2) Chủ đề: Sách
+3) Cơ sở dữ liệu sử dụng: SQL Server 
     + File MyShop.sql chứa nội dung của cơ sở dữ liệu chính của chương trình, tên là MyShop 
     + Click chọn mở file thông qua phần mềm SQL Server Management Studio, Ctrl + A và nhấn F5 để khởi tạo cơ sở dữ liệu
-3) Đăng nhập:
+4) Đăng nhập:
     + Settings: Cấu hình database để kết nối (tên server, tên database, tài khoản, mật khẩu)
     + Login: Phần đăng nhập sử dụng tài khoản được cấp (nằm trong database). Có 3 tài khoản sẵn có (Username: admin, Password: 1 / Username: sale1, Password: 1 / Username: sale2, Password: 1)
     + Màn hình sẽ bị lag 2-5 giây mới vào được màn hình chính
